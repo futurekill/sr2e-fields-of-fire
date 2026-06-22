@@ -1,0 +1,61 @@
+{
+  "_id": "23fd23549296f0da",
+  "name": "M-12 Man-Portable Mortar",
+  "type": "weapon",
+  "img": "icons/svg/explosion.svg",
+  "system": {
+    "weaponType": "heavy",
+    "skill": "launch_weapons",
+    "damageCode": "*",
+    "damageType": "physical",
+    "concealability": 99,
+    "reach": 0,
+    "firingModes": {
+      "ss": true,
+      "sa": false,
+      "bf": false,
+      "fa": false
+    },
+    "ammo": {
+      "current": 1,
+      "max": 1,
+      "type": "round"
+    },
+    "recoilComp": 0,
+    "smartgunCompatible": false,
+    "ranges": {
+      "short": 300,
+      "medium": 1000,
+      "long": 4000,
+      "extreme": 6000
+    },
+    "strengthMin": 0,
+    "weight": 30,
+    "cost": 3000,
+    "availability": "12/14 days",
+    "legality": "Forbidden",
+    "streetIndex": "2",
+    "equipped": false,
+    "accessories": [],
+    "notes": "Bipod-braced man-portable mortar firing dumb rounds, or laser-tracking 'smart' rounds with a spotter's data. Setup 18 turns (3 min); breakdown 18 turns. Up to 2 rounds per Combat Turn. Damage depends on the loaded round (see ff-ammo). Fields of Fire p.44."
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "sr2e",
+    "systemVersion": "0.0.1",
+    "createdTime": 1782000000000,
+    "modifiedTime": 1782000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!23fd23549296f0da"
+}

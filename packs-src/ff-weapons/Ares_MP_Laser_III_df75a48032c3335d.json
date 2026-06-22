@@ -1,0 +1,61 @@
+{
+  "_id": "df75a48032c3335d",
+  "name": "Ares MP Laser III",
+  "type": "weapon",
+  "img": "icons/svg/explosion.svg",
+  "system": {
+    "weaponType": "heavy",
+    "skill": "heavy_weapons",
+    "damageCode": "15M",
+    "damageType": "physical",
+    "concealability": 99,
+    "reach": 0,
+    "firingModes": {
+      "ss": false,
+      "sa": true,
+      "bf": false,
+      "fa": false
+    },
+    "ammo": {
+      "current": 20,
+      "max": 20,
+      "type": "battery"
+    },
+    "recoilComp": 0,
+    "smartgunCompatible": false,
+    "ranges": {
+      "short": 40,
+      "medium": 80,
+      "long": 200,
+      "extreme": 400
+    },
+    "strengthMin": 0,
+    "weight": 25,
+    "cost": 120000,
+    "availability": "24/21 days",
+    "legality": "Forbidden",
+    "streetIndex": "3",
+    "equipped": false,
+    "accessories": [],
+    "notes": "Self-contained man-portable laser with detachable rapid-swap battery packs. Range via the FF Weapon Range Table (Sniper Rifle row); Power −2 per range band beyond Short. Ignores Ballistic Armor, halves Impact Armor (round down); −1 Damage vs vehicles; smoke −1 Power per 2m. Recoil modifiers don't apply. Fields of Fire p.49."
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "sr2e",
+    "systemVersion": "0.0.1",
+    "createdTime": 1782000000000,
+    "modifiedTime": 1782000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!df75a48032c3335d"
+}

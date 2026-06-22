@@ -1,0 +1,61 @@
+{
+  "_id": "2944e18e934a5c85",
+  "name": "Arbelast II Medium Anti-Armor Weapon",
+  "type": "weapon",
+  "img": "icons/svg/explosion.svg",
+  "system": {
+    "weaponType": "heavy",
+    "skill": "launch_weapons",
+    "damageCode": "15D",
+    "damageType": "physical",
+    "concealability": 99,
+    "reach": 0,
+    "firingModes": {
+      "ss": true,
+      "sa": false,
+      "bf": false,
+      "fa": false
+    },
+    "ammo": {
+      "current": 1,
+      "max": 1,
+      "type": "round"
+    },
+    "recoilComp": 0,
+    "smartgunCompatible": false,
+    "ranges": {
+      "short": 70,
+      "medium": 150,
+      "long": 450,
+      "extreme": 1500
+    },
+    "strengthMin": 0,
+    "weight": 2.75,
+    "cost": 1200,
+    "availability": "8/48",
+    "legality": "Forbidden",
+    "streetIndex": "2",
+    "equipped": false,
+    "accessories": [],
+    "notes": "Heavier disposable rocket launcher (MAW) with a permanent fixed-magnification sight and pop-up hard sights; non-telescoping, no accessories. Warhead 15D (Scatter 2D6+2, Power −1/half-meter). Not AVR-compatible, no AP. 12m back-blast (12M, −1/m). Fields of Fire p.40."
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "sr2e",
+    "systemVersion": "0.0.1",
+    "createdTime": 1782000000000,
+    "modifiedTime": 1782000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!2944e18e934a5c85"
+}

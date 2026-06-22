@@ -21,9 +21,16 @@ offset 0 (PDF page = book page in the front matter / Field Pack).
 | `ff-vehicle-mods` | Item `vehicle_mod` | Vehicle Smoke Generator (71), Ablative Vehicle Armor (72) |
 
 ## Batch order
-1. **Firearms** (p.26–38) → `ff-weapons`. ~13 weapons.
-2. **Heavy weapons** (p.39–50) → `ff-weapons`; their rounds → `ff-ammo`.
-3. **Gear & armor** (p.52–62) → `ff-armor` + `ff-gear`.
+1. ✅ **Firearms** (p.26–38) → `ff-weapons`. 13 weapons.
+2. ✅ **Heavy weapons** (p.39–50) → `ff-weapons`. 9 weapons: M79B1 LAW, Arbelast
+   II MAW, Great Dragon ATGM, Ballista launcher, M-12 mortar, ArmTech MGL-12 &
+   Mini-6 grenade launchers, Ares MP Laser III, Ares FireLance vehicle laser.
+   Ranges from the FF Weapon Range Table (p.87). **Still open for batch 2:** the
+   **rounds/grenades** (p.43 Ballista Mk I/II/III, p.45 mortar rounds, p.48
+   grenades, p.51 ammunition) → `ff-ammo`; the **Ares Sentry weapon platform**
+   (p.46) is an automated turret (Intelligence 6, 22,000¥), not a damage-code
+   weapon — model it as `ff-gear` in batch 3.
+3. **Gear & armor** (p.52–62) → `ff-armor` + `ff-gear` (+ Sentry platform p.46).
 4. **Vehicles & drones** (p.63–70) → `ff-vehicles`. Cross-check vs Rigger 2 /
    core (the Condor II LDSD-41 also appears in Rigger 2 as `r2-vehicles`; the
    Devil Rat / Striker LAVs are FF-native, referenced "FF" in Rigger 2's list).

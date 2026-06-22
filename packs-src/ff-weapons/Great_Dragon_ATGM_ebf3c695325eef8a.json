@@ -1,0 +1,61 @@
+{
+  "_id": "ebf3c695325eef8a",
+  "name": "Great Dragon ATGM",
+  "type": "weapon",
+  "img": "icons/svg/explosion.svg",
+  "system": {
+    "weaponType": "heavy",
+    "skill": "launch_weapons",
+    "damageCode": "20D",
+    "damageType": "physical",
+    "concealability": 4,
+    "reach": 0,
+    "firingModes": {
+      "ss": true,
+      "sa": false,
+      "bf": false,
+      "fa": false
+    },
+    "ammo": {
+      "current": 1,
+      "max": 1,
+      "type": "round"
+    },
+    "recoilComp": 0,
+    "smartgunCompatible": false,
+    "ranges": {
+      "short": 350,
+      "medium": 750,
+      "long": 1500,
+      "extreme": 5000
+    },
+    "strengthMin": 0,
+    "weight": 2.75,
+    "cost": 1200,
+    "availability": "8/48",
+    "legality": "Forbidden",
+    "streetIndex": "2",
+    "equipped": false,
+    "accessories": [],
+    "notes": "Tripod-mounted, reusable ground-based anti-tank guided missile (semi-active tracking, Optical Mag II). Shaped-charge AP warhead stops armor of any size; 20D, reduces target Power by Body. Standard missile rules (SRII p.99); no accessories. 12m exhaust blast (−1/m). Fields of Fire p.41."
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "sr2e",
+    "systemVersion": "0.0.1",
+    "createdTime": 1782000000000,
+    "modifiedTime": 1782000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!ebf3c695325eef8a"
+}

@@ -1,0 +1,61 @@
+{
+  "_id": "9f77b0ad9df3b666",
+  "name": "Ares FireLance Vehicle Laser",
+  "type": "weapon",
+  "img": "icons/svg/explosion.svg",
+  "system": {
+    "weaponType": "heavy",
+    "skill": "gunnery",
+    "damageCode": "15S",
+    "damageType": "physical",
+    "concealability": 99,
+    "reach": 0,
+    "firingModes": {
+      "ss": false,
+      "sa": true,
+      "bf": false,
+      "fa": false
+    },
+    "ammo": {
+      "current": 40,
+      "max": 40,
+      "type": "battery"
+    },
+    "recoilComp": 0,
+    "smartgunCompatible": false,
+    "ranges": {
+      "short": 15,
+      "medium": 40,
+      "long": 100,
+      "extreme": 250
+    },
+    "strengthMin": 0,
+    "weight": 48,
+    "cost": 300000,
+    "availability": "",
+    "legality": "Forbidden",
+    "streetIndex": "",
+    "equipped": false,
+    "accessories": [],
+    "notes": "Turret-mounted vehicle laser for small/medium vehicles; high recharge rate engages multiple targets, long mean time between failures. Range via the FF Weapon Range Table (Assault Rifle row); Power −2 per band beyond Short. Ignores Ballistic Armor, halves Impact (round down); −1 Damage vs vehicles; smoke −1 Power per 4m. Vehicle-mounted (Gunnery). Availability/Street Index unknown. Fields of Fire p.50."
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "sr2e",
+    "systemVersion": "0.0.1",
+    "createdTime": 1782000000000,
+    "modifiedTime": 1782000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!9f77b0ad9df3b666"
+}

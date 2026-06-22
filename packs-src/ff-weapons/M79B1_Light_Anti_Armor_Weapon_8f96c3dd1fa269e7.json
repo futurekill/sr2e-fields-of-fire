@@ -1,0 +1,61 @@
+{
+  "_id": "8f96c3dd1fa269e7",
+  "name": "M79B1 Light Anti-Armor Weapon",
+  "type": "weapon",
+  "img": "icons/svg/explosion.svg",
+  "system": {
+    "weaponType": "heavy",
+    "skill": "launch_weapons",
+    "damageCode": "12D",
+    "damageType": "physical",
+    "concealability": 4,
+    "reach": 0,
+    "firingModes": {
+      "ss": true,
+      "sa": false,
+      "bf": false,
+      "fa": false
+    },
+    "ammo": {
+      "current": 1,
+      "max": 1,
+      "type": "round"
+    },
+    "recoilComp": 0,
+    "smartgunCompatible": false,
+    "ranges": {
+      "short": 70,
+      "medium": 150,
+      "long": 450,
+      "extreme": 1500
+    },
+    "strengthMin": 0,
+    "weight": 2.5,
+    "cost": 700,
+    "availability": "6/36",
+    "legality": "Forbidden",
+    "streetIndex": "2",
+    "equipped": false,
+    "accessories": [],
+    "notes": "Disposable single-shot telescoping LAW; accepts no accessories and must be fully opened to fire (drops Concealability to 0; firing is a Complex Action). Standard rocket rules (SRII p.99); not AVR-compatible, no armor-piercing. 10m back-blast (10M, −1/m). Fields of Fire p.39."
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "sr2e",
+    "systemVersion": "0.0.1",
+    "createdTime": 1782000000000,
+    "modifiedTime": 1782000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!8f96c3dd1fa269e7"
+}

@@ -22,7 +22,16 @@ const RANGE = {
   assault: { short: 25, medium: 100, long: 250, extreme: 500 },
   sniper:  { short: 50, medium: 350, long: 800, extreme: 1500 },
   shotgun: { short: 10, medium: 20,  long: 40,  extreme: 60 },
-  mg:      { short: 50, medium: 150, long: 350, extreme: 550 }
+  mg:      { short: 50, medium: 150, long: 350, extreme: 550 },
+  // Heavy / launch weapons — Fields of Fire Weapon Range Table (book p.87).
+  grenadeLauncher: { short: 50,  medium: 100,  long: 150,  extreme: 300 },
+  missileLauncher: { short: 70,  medium: 150,  long: 450,  extreme: 1500 },
+  atgm:            { short: 350, medium: 750,  long: 1500, extreme: 5000 },
+  ballista:        { short: 100, medium: 500,  long: 2500, extreme: 5000 },
+  mortar:          { short: 300, medium: 1000, long: 4000, extreme: 6000 },
+  // FF p.87 firearm rows used by the lasers (Type Sniper / Type Assault).
+  ffSniper:        { short: 40,  medium: 80,   long: 200,  extreme: 400 },
+  ffAssault:       { short: 15,  medium: 40,   long: 100,  extreme: 250 }
 };
 const KIND = {
   firearm: { type: "firearm", skill: "firearms" },
@@ -79,7 +88,30 @@ const WEAPONS = [
   { name: "Franchi SPAS-22", conceal: 2, ammo: 10, mode: "SA/BF", dmg: "10S", wt: 4, avail: "6/48 hrs", cost: 1000, index: 2, range: "shotgun", ammoType: "magazine", rc: 1, smart: true, legality: "Restricted",
     notes: "Selective-fire combat shotgun (single-action or burst); custom folding stock (+1 RR when extended; −2 recoil modifier) and Smartlink II hardware. Top accessories. Fields of Fire p.37." },
   { name: "Ares HV MP-LMG", kind: "heavy", conceal: 99, ammo: 80, mode: "SA/BF/FA", dmg: "6S", wt: 8.0, avail: "20/14 days", cost: 4500, index: 4, range: "mg", ammoType: "belt", rc: 3, smart: true, legality: "Forbidden",
-    notes: "Super-machinegun version of the man-portable LMG; works as a personal or mounted weapon, belt-fed, with integral Smartlink II and +3 Recoil Reduction. Fires light-pistol rounds; six-round bursts do 15D, max autofire 15. Under-barrel + top accessories. Fields of Fire p.38." }
+    notes: "Super-machinegun version of the man-portable LMG; works as a personal or mounted weapon, belt-fed, with integral Smartlink II and +3 Recoil Reduction. Fires light-pistol rounds; six-round bursts do 15D, max autofire 15. Under-barrel + top accessories. Fields of Fire p.38." },
+
+  // --- Heavy Weapons (book p.39-50). Launchers/mortar/grenade use Launch
+  //     Weapons; the man-portable laser uses Heavy Weapons; the vehicle laser
+  //     Gunnery. Ranges from the FF Weapon Range Table (book p.87). "*" damage =
+  //     set by the loaded round/grenade (see ff-ammo, a later batch).
+  { name: "M79B1 Light Anti-Armor Weapon", kind: "heavy", skill: "launch_weapons", conceal: 4, ammo: 1, mode: "SS", dmg: "12D", wt: 2.5, avail: "6/36", cost: 700, index: 2, range: "missileLauncher", ammoType: "round", legality: "Forbidden",
+    notes: "Disposable single-shot telescoping LAW; accepts no accessories and must be fully opened to fire (drops Concealability to 0; firing is a Complex Action). Standard rocket rules (SRII p.99); not AVR-compatible, no armor-piercing. 10m back-blast (10M, −1/m). Fields of Fire p.39." },
+  { name: "Arbelast II Medium Anti-Armor Weapon", kind: "heavy", skill: "launch_weapons", conceal: 99, ammo: 1, mode: "SS", dmg: "15D", wt: 2.75, avail: "8/48", cost: 1200, index: 2, range: "missileLauncher", ammoType: "round", legality: "Forbidden",
+    notes: "Heavier disposable rocket launcher (MAW) with a permanent fixed-magnification sight and pop-up hard sights; non-telescoping, no accessories. Warhead 15D (Scatter 2D6+2, Power −1/half-meter). Not AVR-compatible, no AP. 12m back-blast (12M, −1/m). Fields of Fire p.40." },
+  { name: "Great Dragon ATGM", kind: "heavy", skill: "launch_weapons", conceal: 4, ammo: 1, mode: "SS", dmg: "20D", wt: 2.75, avail: "8/48", cost: 1200, index: 2, range: "atgm", ammoType: "round", legality: "Forbidden",
+    notes: "Tripod-mounted, reusable ground-based anti-tank guided missile (semi-active tracking, Optical Mag II). Shaped-charge AP warhead stops armor of any size; 20D, reduces target Power by Body. Standard missile rules (SRII p.99); no accessories. 12m exhaust blast (−1/m). Fields of Fire p.41." },
+  { name: "Ballista Multi-Role Missile Launcher", kind: "heavy", skill: "launch_weapons", conceal: 99, ammo: 4, mode: "SS", dmg: "14D", wt: 6.5, avail: "18/30 days", cost: 10500, index: 4, range: "ballista", ammoType: "magazine", legality: "Forbidden",
+    notes: "Saeder-Krupp shoulder/balanced launcher firing Ballista Mk I/II/III missiles, direct- or indirect-fire. 4-round magazine (swap 10s; full reload 30s). Ships with a Type I Laser Designator (direct-fire mode). Base 14D varies by missile round (see ff-ammo). Fields of Fire p.42." },
+  { name: "M-12 Man-Portable Mortar", kind: "heavy", skill: "launch_weapons", conceal: 99, ammo: 1, mode: "SS", dmg: "*", wt: 30, avail: "12/14 days", cost: 3000, index: 2, range: "mortar", ammoType: "round", legality: "Forbidden",
+    notes: "Bipod-braced man-portable mortar firing dumb rounds, or laser-tracking 'smart' rounds with a spotter's data. Setup 18 turns (3 min); breakdown 18 turns. Up to 2 rounds per Combat Turn. Damage depends on the loaded round (see ff-ammo). Fields of Fire p.44." },
+  { name: "ArmTech MGL-12", kind: "heavy", skill: "launch_weapons", conceal: 3, ammo: 12, mode: "SA", dmg: "*", wt: 5.0, avail: "6/36", cost: 2200, index: 3, range: "grenadeLauncher", ammoType: "clip", legality: "Forbidden",
+    notes: "Bull-pup multi-grenade launcher; 12-round clip of standard mini-grenades, accurate to 300m. Standard grenade rules (SRII p.96). Recoil modifier +2 (compensation only via gyro-mounts). Accepts targeting + sighting accessories. Damage per grenade (see ff-ammo). Fields of Fire p.47." },
+  { name: "ArmTech Mini-6 Grenade Launcher", kind: "heavy", skill: "launch_weapons", conceal: 6, ammo: 6, mode: "SA", dmg: "*", wt: 2.5, avail: "6/36", cost: 1600, index: 3, range: "grenadeLauncher", ammoType: "clip", legality: "Forbidden",
+    notes: "Pistol-style version of the MGL-12; 6-round clip of mini-grenades. Standard grenade rules (SRII p.96), recoil modifier +2 (gyro-mount only). Targeting + sighting accessories. Damage per grenade (see ff-ammo). Fields of Fire p.47." },
+  { name: "Ares MP Laser III", kind: "heavy", skill: "heavy_weapons", conceal: 99, ammo: 20, mode: "SA", dmg: "15M", wt: 25, avail: "24/21 days", cost: 120000, index: 3, range: "ffSniper", ammoType: "battery", legality: "Forbidden",
+    notes: "Self-contained man-portable laser with detachable rapid-swap battery packs. Range via the FF Weapon Range Table (Sniper Rifle row); Power −2 per range band beyond Short. Ignores Ballistic Armor, halves Impact Armor (round down); −1 Damage vs vehicles; smoke −1 Power per 2m. Recoil modifiers don't apply. Fields of Fire p.49." },
+  { name: "Ares FireLance Vehicle Laser", kind: "heavy", skill: "gunnery", conceal: 99, ammo: 40, mode: "SA", dmg: "15S", wt: 48, avail: "", cost: 300000, index: "", range: "ffAssault", ammoType: "battery", legality: "Forbidden",
+    notes: "Turret-mounted vehicle laser for small/medium vehicles; high recharge rate engages multiple targets, long mean time between failures. Range via the FF Weapon Range Table (Assault Rifle row); Power −2 per band beyond Short. Ignores Ballistic Armor, halves Impact (round down); −1 Damage vs vehicles; smoke −1 Power per 4m. Vehicle-mounted (Gunnery). Availability/Street Index unknown. Fields of Fire p.50." }
 ];
 
 let n = 0;

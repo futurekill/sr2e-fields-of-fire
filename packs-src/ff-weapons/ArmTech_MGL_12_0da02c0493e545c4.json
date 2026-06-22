@@ -1,0 +1,61 @@
+{
+  "_id": "0da02c0493e545c4",
+  "name": "ArmTech MGL-12",
+  "type": "weapon",
+  "img": "icons/svg/explosion.svg",
+  "system": {
+    "weaponType": "heavy",
+    "skill": "launch_weapons",
+    "damageCode": "*",
+    "damageType": "physical",
+    "concealability": 3,
+    "reach": 0,
+    "firingModes": {
+      "ss": false,
+      "sa": true,
+      "bf": false,
+      "fa": false
+    },
+    "ammo": {
+      "current": 12,
+      "max": 12,
+      "type": "clip"
+    },
+    "recoilComp": 0,
+    "smartgunCompatible": false,
+    "ranges": {
+      "short": 50,
+      "medium": 100,
+      "long": 150,
+      "extreme": 300
+    },
+    "strengthMin": 0,
+    "weight": 5,
+    "cost": 2200,
+    "availability": "6/36",
+    "legality": "Forbidden",
+    "streetIndex": "3",
+    "equipped": false,
+    "accessories": [],
+    "notes": "Bull-pup multi-grenade launcher; 12-round clip of standard mini-grenades, accurate to 300m. Standard grenade rules (SRII p.96). Recoil modifier +2 (compensation only via gyro-mounts). Accepts targeting + sighting accessories. Damage per grenade (see ff-ammo). Fields of Fire p.47."
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "sr2e",
+    "systemVersion": "0.0.1",
+    "createdTime": 1782000000000,
+    "modifiedTime": 1782000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!0da02c0493e545c4"
+}
