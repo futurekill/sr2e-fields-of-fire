@@ -1,0 +1,61 @@
+{
+  "_id": "116a8d96f07341de",
+  "name": "Barret Model 121 Heavy Sniper Rifle",
+  "type": "weapon",
+  "img": "icons/svg/explosion.svg",
+  "system": {
+    "weaponType": "firearm",
+    "skill": "firearms",
+    "damageCode": "14D",
+    "damageType": "physical",
+    "concealability": 99,
+    "reach": 0,
+    "firingModes": {
+      "ss": false,
+      "sa": true,
+      "bf": false,
+      "fa": false
+    },
+    "ammo": {
+      "current": 14,
+      "max": 14,
+      "type": "clip"
+    },
+    "recoilComp": 2,
+    "smartgunCompatible": true,
+    "ranges": {
+      "short": 50,
+      "medium": 350,
+      "long": 800,
+      "extreme": 1500
+    },
+    "strengthMin": 0,
+    "weight": 10,
+    "cost": 4800,
+    "availability": "14/30 days",
+    "legality": "Forbidden",
+    "streetIndex": "4",
+    "equipped": false,
+    "accessories": [],
+    "notes": "Heavy anti-materiel sniper rifle with an integral silencer (+2 RR) and Smartlink I (+2). Fires custom armor-piercing rounds (treat as APDS; 200¥ per box of 10, separate acquisition test). Fields of Fire p.35."
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "sr2e",
+    "systemVersion": "0.0.1",
+    "createdTime": 1782000000000,
+    "modifiedTime": 1782000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!116a8d96f07341de"
+}

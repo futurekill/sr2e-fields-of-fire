@@ -1,0 +1,61 @@
+{
+  "_id": "1f3adef7b4ac8e37",
+  "name": "Remington 990 Shotgun",
+  "type": "weapon",
+  "img": "icons/svg/explosion.svg",
+  "system": {
+    "weaponType": "firearm",
+    "skill": "firearms",
+    "damageCode": "8S",
+    "damageType": "physical",
+    "concealability": 2,
+    "reach": 0,
+    "firingModes": {
+      "ss": false,
+      "sa": true,
+      "bf": false,
+      "fa": false
+    },
+    "ammo": {
+      "current": 8,
+      "max": 8,
+      "type": "magazine"
+    },
+    "recoilComp": 0,
+    "smartgunCompatible": false,
+    "ranges": {
+      "short": 10,
+      "medium": 20,
+      "long": 40,
+      "extreme": 60
+    },
+    "strengthMin": 0,
+    "weight": 4,
+    "cost": 650,
+    "availability": "3/48 hrs",
+    "legality": "Restricted",
+    "streetIndex": "2",
+    "equipped": false,
+    "accessories": [],
+    "notes": "Common, affordable pump/semi shotgun firing slug or shot (8S; see the SR2 shotgun rules). Sawed-off version: Concealability 4 and all Damage Codes −2. Fields of Fire p.36."
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "sr2e",
+    "systemVersion": "0.0.1",
+    "createdTime": 1782000000000,
+    "modifiedTime": 1782000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!1f3adef7b4ac8e37"
+}

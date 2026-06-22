@@ -1,0 +1,61 @@
+{
+  "_id": "e87804d63be05ac2",
+  "name": "Hammerli Model 610s",
+  "type": "weapon",
+  "img": "icons/svg/explosion.svg",
+  "system": {
+    "weaponType": "firearm",
+    "skill": "firearms",
+    "damageCode": "6L",
+    "damageType": "physical",
+    "concealability": 4,
+    "reach": 0,
+    "firingModes": {
+      "ss": false,
+      "sa": true,
+      "bf": false,
+      "fa": false
+    },
+    "ammo": {
+      "current": 6,
+      "max": 6,
+      "type": "clip"
+    },
+    "recoilComp": 1,
+    "smartgunCompatible": false,
+    "ranges": {
+      "short": 5,
+      "medium": 20,
+      "long": 40,
+      "extreme": 60
+    },
+    "strengthMin": 0,
+    "weight": 2.5,
+    "cost": 1295,
+    "availability": "8/24 hrs",
+    "legality": "Legal",
+    "streetIndex": "2.5",
+    "equipped": false,
+    "accessories": [],
+    "notes": "Match-target pistol (technically a light pistol but uses the Heavy Pistol range table); customizable grips/weights give +1 Recoil Reduction. Top accessories only. Fields of Fire p.27."
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "sr2e",
+    "systemVersion": "0.0.1",
+    "createdTime": 1782000000000,
+    "modifiedTime": 1782000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!e87804d63be05ac2"
+}

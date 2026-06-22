@@ -1,0 +1,61 @@
+{
+  "_id": "e61bde7474534809",
+  "name": "Ares HV MP-LMG",
+  "type": "weapon",
+  "img": "icons/svg/explosion.svg",
+  "system": {
+    "weaponType": "heavy",
+    "skill": "heavy_weapons",
+    "damageCode": "6S",
+    "damageType": "physical",
+    "concealability": 99,
+    "reach": 0,
+    "firingModes": {
+      "ss": false,
+      "sa": true,
+      "bf": true,
+      "fa": true
+    },
+    "ammo": {
+      "current": 80,
+      "max": 80,
+      "type": "belt"
+    },
+    "recoilComp": 3,
+    "smartgunCompatible": true,
+    "ranges": {
+      "short": 50,
+      "medium": 150,
+      "long": 350,
+      "extreme": 550
+    },
+    "strengthMin": 0,
+    "weight": 8,
+    "cost": 4500,
+    "availability": "20/14 days",
+    "legality": "Forbidden",
+    "streetIndex": "4",
+    "equipped": false,
+    "accessories": [],
+    "notes": "Super-machinegun version of the man-portable LMG; works as a personal or mounted weapon, belt-fed, with integral Smartlink II and +3 Recoil Reduction. Fires light-pistol rounds; six-round bursts do 15D, max autofire 15. Under-barrel + top accessories. Fields of Fire p.38."
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "sr2e",
+    "systemVersion": "0.0.1",
+    "createdTime": 1782000000000,
+    "modifiedTime": 1782000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!e61bde7474534809"
+}

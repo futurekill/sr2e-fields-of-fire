@@ -1,0 +1,61 @@
+{
+  "_id": "28001523f1129c81",
+  "name": "Walther PB-120",
+  "type": "weapon",
+  "img": "icons/svg/explosion.svg",
+  "system": {
+    "weaponType": "firearm",
+    "skill": "firearms",
+    "damageCode": "6L",
+    "damageType": "physical",
+    "concealability": 8,
+    "reach": 0,
+    "firingModes": {
+      "ss": false,
+      "sa": true,
+      "bf": false,
+      "fa": false
+    },
+    "ammo": {
+      "current": 10,
+      "max": 10,
+      "type": "clip"
+    },
+    "recoilComp": 0,
+    "smartgunCompatible": false,
+    "ranges": {
+      "short": 5,
+      "medium": 15,
+      "long": 30,
+      "extreme": 50
+    },
+    "strengthMin": 0,
+    "weight": 0.75,
+    "cost": 700,
+    "availability": "6/36 hrs",
+    "legality": "Restricted",
+    "streetIndex": "2",
+    "equipped": false,
+    "accessories": [],
+    "notes": "Low-profile composite back-up light pistol; 15-round extended clip available. Mounts standard barrel + top accessories, no under-barrel. Fields of Fire p.26."
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "sr2e",
+    "systemVersion": "0.0.1",
+    "createdTime": 1782000000000,
+    "modifiedTime": 1782000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!28001523f1129c81"
+}

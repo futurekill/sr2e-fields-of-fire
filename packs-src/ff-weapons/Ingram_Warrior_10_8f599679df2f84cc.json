@@ -1,0 +1,61 @@
+{
+  "_id": "8f599679df2f84cc",
+  "name": "Ingram Warrior-10",
+  "type": "weapon",
+  "img": "icons/svg/explosion.svg",
+  "system": {
+    "weaponType": "firearm",
+    "skill": "firearms",
+    "damageCode": "7M",
+    "damageType": "physical",
+    "concealability": 4,
+    "reach": 0,
+    "firingModes": {
+      "ss": false,
+      "sa": true,
+      "bf": true,
+      "fa": false
+    },
+    "ammo": {
+      "current": 30,
+      "max": 30,
+      "type": "clip"
+    },
+    "recoilComp": 0,
+    "smartgunCompatible": false,
+    "ranges": {
+      "short": 10,
+      "medium": 40,
+      "long": 80,
+      "extreme": 150
+    },
+    "strengthMin": 0,
+    "weight": 3,
+    "cost": 650,
+    "availability": "3/24 hrs",
+    "legality": "Forbidden",
+    "streetIndex": "0.9",
+    "equipped": false,
+    "accessories": [],
+    "notes": "Cheap, durable SMG that keeps firing in any conditions; mounts all barrel, under-barrel, and top accessories. Fields of Fire p.29."
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "sr2e",
+    "systemVersion": "0.0.1",
+    "createdTime": 1782000000000,
+    "modifiedTime": 1782000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!8f599679df2f84cc"
+}
