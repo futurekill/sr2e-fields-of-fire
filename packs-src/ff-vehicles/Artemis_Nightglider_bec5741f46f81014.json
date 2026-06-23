@@ -1,0 +1,67 @@
+{
+  "_id": "bec5741f46f81014",
+  "name": "Artemis Nightglider",
+  "type": "vehicle",
+  "img": "icons/svg/explosion.svg",
+  "system": {
+    "vehicleType": "aircraft",
+    "skill": "",
+    "handling": 3,
+    "speed": 60,
+    "acceleration": 0,
+    "body": 1,
+    "armor": 0,
+    "signature": 12,
+    "pilot": 1,
+    "sensor": 0,
+    "cargo": 4,
+    "load": 400,
+    "seating": "1 underslung",
+    "cost": 45000,
+    "availability": "",
+    "autonav": 0,
+    "conditionMonitor": {
+      "value": 0,
+      "max": 10
+    },
+    "notes": "Medium-weight stealth infiltration glider: radar-absorbing mesh skin, low-noise electric turbofan, Effective VTOL. Cruise/max 15/60, Economy 1 PF/km, Power Elec/100, weight 200 kg, 400-kg load. Deploys from two bags; 5 min to assemble/disassemble; optional remote-operations package. Fields of Fire p.62."
+  },
+  "items": [],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "sr2e",
+    "systemVersion": "0.0.1",
+    "createdTime": 1782000000000,
+    "modifiedTime": 1782000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "prototypeToken": {
+    "name": "Artemis Nightglider",
+    "displayName": 0,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/explosion.svg",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "scaleX": 1,
+      "scaleY": 1,
+      "fit": "contain",
+      "tint": "#ffffff"
+    },
+    "disposition": 0,
+    "displayBars": 0
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!actors!bec5741f46f81014"
+}

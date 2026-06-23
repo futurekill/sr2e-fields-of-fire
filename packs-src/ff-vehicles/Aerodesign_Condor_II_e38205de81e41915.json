@@ -1,0 +1,67 @@
+{
+  "_id": "e38205de81e41915",
+  "name": "Aerodesign Condor II",
+  "type": "vehicle",
+  "img": "icons/svg/explosion.svg",
+  "system": {
+    "vehicleType": "drone",
+    "skill": "",
+    "handling": 5,
+    "speed": 90,
+    "acceleration": 0,
+    "body": 1,
+    "armor": 3,
+    "signature": 11,
+    "pilot": 3,
+    "sensor": 1,
+    "cargo": 4,
+    "load": 0,
+    "seating": "0",
+    "cost": 45000,
+    "availability": "",
+    "autonav": 0,
+    "conditionMonitor": {
+      "value": 0,
+      "max": 10
+    },
+    "notes": "Long-endurance recon drone — the Condor LDSD-23 with long-duration batteries in place of solar cells. Handling 5, Speed 30/90, VSTOL, Economy 5 km/PF, Power 25 PF (duration limited by power), Standard (I) sensor package, set-up 5 min. Remote-control gear; 3 CF free for sensors/ECM-ECCM/control gear. Fields of Fire p.67. (Rigger 2 lists a Condor II LDSD-41 with a slightly different stat block.)"
+  },
+  "items": [],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "sr2e",
+    "systemVersion": "0.0.1",
+    "createdTime": 1782000000000,
+    "modifiedTime": 1782000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "prototypeToken": {
+    "name": "Aerodesign Condor II",
+    "displayName": 0,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/explosion.svg",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "scaleX": 1,
+      "scaleY": 1,
+      "fit": "contain",
+      "tint": "#ffffff"
+    },
+    "disposition": 0,
+    "displayBars": 0
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!actors!e38205de81e41915"
+}
