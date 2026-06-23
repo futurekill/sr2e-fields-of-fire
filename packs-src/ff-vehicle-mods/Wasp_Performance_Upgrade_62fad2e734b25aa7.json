@@ -1,0 +1,32 @@
+{
+  "_id": "62fad2e734b25aa7",
+  "name": "Wasp Performance Upgrade",
+  "type": "vehicle_mod",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "modType": "upgrade",
+    "rating": 0,
+    "cost": 74000,
+    "installed": false,
+    "notes": "Northrup performance upgrade for the Wasp drone: Handling −1, Signature +2, and sets Body/Armor to 2/6. Fleet-upgrade discounts available. Base Wasp stats: Rigger Black Book p.70-71 / Street Samurai Catalog p.74. Fields of Fire p.70."
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "sr2e",
+    "systemVersion": "0.0.1",
+    "createdTime": 1782000000000,
+    "modifiedTime": 1782000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!62fad2e734b25aa7"
+}

@@ -1,0 +1,32 @@
+{
+  "_id": "c360cb4e961c0b68",
+  "name": "Ablative Vehicle Armor (Level 1)",
+  "type": "vehicle_mod",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "modType": "armor",
+    "rating": 1,
+    "cost": 700,
+    "installed": false,
+    "notes": "EAW modular ablative armor, Level 1: adds +2 to effective Armor Rating (max = Body). When hit by an attack with Power > 3, reduce the Armor bonus by 1. 6 hrs to install; can't be concealed; not Hardened; not usable on aircraft. Availability 8/14 days, Street Index 2. Fields of Fire p.72."
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "sr2e",
+    "systemVersion": "0.0.1",
+    "createdTime": 1782000000000,
+    "modifiedTime": 1782000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!c360cb4e961c0b68"
+}

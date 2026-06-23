@@ -1,0 +1,32 @@
+{
+  "_id": "f1a4e7e5f513e916",
+  "name": "Small Vehicle Smoke Generator",
+  "type": "vehicle_mod",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "modType": "smoke",
+    "rating": 0,
+    "cost": 700,
+    "installed": false,
+    "notes": "Externally-mounted vehicle smoke generator, 6 charges. Triggered from inside; each charge covers a given area (smoke rules p.85). Thermal IR-blocking smoke available at +20% cost. Fields of Fire p.71."
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "sr2e",
+    "systemVersion": "0.0.1",
+    "createdTime": 1782000000000,
+    "modifiedTime": 1782000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!f1a4e7e5f513e916"
+}
