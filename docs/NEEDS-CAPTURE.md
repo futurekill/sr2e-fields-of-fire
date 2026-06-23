@@ -9,6 +9,17 @@ Format: **pack / item — field** — what's wrong, placeholder used.
 ## Open
 - (none yet)
 
+## Open — vehicle stat convention (confirm before batch 4)
+- **FF vehicle stat-block "B/A" column.** The vehicle pages (p.62–70) print a
+  combined column headed **B/A** with values like "2/9" (GMC MPUV, p.63) and a
+  single "9" (Night Glider, p.62). By position B/A = **Body / Armor** (so MPUV =
+  Body 2, Armor 9), but Body 2 on a 4-wheel personnel transport is mechanically
+  odd. Confirm the convention (Body/Armor order + what a single value means)
+  against a known FF vehicle or the FF vehicle rules before transcribing
+  `ff-vehicles`, so the stats aren't baked in wrong. Read so far for the MPUV:
+  Handling 5/3, Speed 40/120 (off-road 30/90), B/A 2/9, Sig 4, A/Pilot 0, Cost
+  22,000¥, Seating 2+2, Cargo 10 CF, Economy 15 km/L, Fuel Multifuel/100.
+
 ## Resolved (rules-accuracy)
 - **ff-weapons firearms — ranges aligned to the FF Weapon Range Table (p.87).**
   The `RANGE` table now uses the book's own brackets for every class. Re-stated:
