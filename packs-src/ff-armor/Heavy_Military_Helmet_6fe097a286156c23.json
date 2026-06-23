@@ -1,0 +1,37 @@
+{
+  "_id": "6fe097a286156c23",
+  "name": "Heavy Military Helmet",
+  "type": "armor",
+  "img": "icons/svg/shield.svg",
+  "system": {
+    "ballistic": 2,
+    "impact": 3,
+    "concealability": 0,
+    "weight": 3,
+    "cost": 2500,
+    "availability": "24/1 mth",
+    "legality": "Forbidden",
+    "equipped": false,
+    "isLayered": false,
+    "notes": "Add-on military helmet: +2 Ballistic / +3 Impact to the suit. Street Index 3. Forbidden. Fields of Fire p.54."
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "sr2e",
+    "systemVersion": "0.0.1",
+    "createdTime": 1782000000000,
+    "modifiedTime": 1782000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!6fe097a286156c23"
+}

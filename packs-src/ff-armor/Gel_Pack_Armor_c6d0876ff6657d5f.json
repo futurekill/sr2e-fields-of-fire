@@ -1,0 +1,37 @@
+{
+  "_id": "c6d0876ff6657d5f",
+  "name": "Gel-Pack Armor",
+  "type": "armor",
+  "img": "icons/svg/shield.svg",
+  "system": {
+    "ballistic": 0,
+    "impact": 0,
+    "concealability": 0,
+    "weight": 0,
+    "cost": 0,
+    "availability": "",
+    "legality": "Forbidden",
+    "equipped": false,
+    "isLayered": false,
+    "notes": "Mil-spec gel-pack upgrade added to ANY armor: treat that armor as Hardened at its normal Ballistic and Impact ratings (a hit whose Power doesn't exceed the rating does no damage; penetration reduces the rating by 1). Halves the armor's Concealability (round down). Multiplies the base armor by: weight ×1.25, cost ×5, Street Index ×2, Availability target number ×2 and time ×4. Forbidden. Fields of Fire p.53."
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "sr2e",
+    "systemVersion": "0.0.1",
+    "createdTime": 1782000000000,
+    "modifiedTime": 1782000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!c6d0876ff6657d5f"
+}

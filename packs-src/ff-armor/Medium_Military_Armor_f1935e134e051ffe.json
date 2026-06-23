@@ -1,0 +1,37 @@
+{
+  "_id": "f1935e134e051ffe",
+  "name": "Medium Military Armor",
+  "type": "armor",
+  "img": "icons/svg/shield.svg",
+  "system": {
+    "ballistic": 12,
+    "impact": 8,
+    "concealability": 0,
+    "weight": 14,
+    "cost": 45000,
+    "availability": "24/1 mth",
+    "legality": "Forbidden",
+    "equipped": false,
+    "isLayered": false,
+    "notes": "Hardened military combat armor with integral combat electronics (incl. BattleTac). Weight 14 + Body. Reduces Combat Pool by 1 per 2 Ballistic points above the wearer's Quickness. Street Index 3. Forbidden. Fields of Fire p.54."
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "sr2e",
+    "systemVersion": "0.0.1",
+    "createdTime": 1782000000000,
+    "modifiedTime": 1782000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!f1935e134e051ffe"
+}
