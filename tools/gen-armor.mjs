@@ -41,7 +41,15 @@ const ARMOR = [
   { name: "Heavy Military Armor", ballistic: 14, impact: 9, wt: 16, cost: 70000, avail: "28/1.5 mth",
     notes: "Hardened military combat armor with integral combat electronics (incl. BattleTac), energy dispersal, thermal dampening, intrusal wiring, antenna matrices. Weight 16 + Body. Reduces Combat Pool by 1 per 2 Ballistic points above the wearer's Quickness. Street Index 3. Forbidden. Fields of Fire p.54." },
   { name: "Heavy Military Helmet", ballistic: 2, impact: 3, wt: 3.0, cost: 2500, avail: "24/1 mth",
-    notes: "Add-on military helmet: +2 Ballistic / +3 Impact to the suit. Street Index 3. Forbidden. Fields of Fire p.54." }
+    notes: "Add-on military helmet: +2 Ballistic / +3 Impact to the suit. Street Index 3. Forbidden. Fields of Fire p.54." },
+
+  // Camo-Spec armored camo clothing (book p.52). Light armor + a camouflage
+  // Perception modifier (Rules p.77). Reversible day/night; patterns: Desert,
+  // Snow, Woodland, Urban, Winter Woodland.
+  { name: "Camo-Spec Full Suit", ballistic: 3, impact: 1, cost: 800, avail: "4/30 hrs", legality: "Legal",
+    notes: "Patterson Fabrics Camo-Spec full suit: light armor plus a computer-designed camouflage pattern (effects on Perception Tests, Rules p.77). Reversible day/night; patterns Desert/Snow/Woodland/Urban/Winter Woodland. Street Index 1. Fields of Fire p.52." },
+  { name: "Camo-Spec Jacket", ballistic: 5, impact: 3, cost: 1200, avail: "5/36 hrs", legality: "Legal",
+    notes: "Patterson Fabrics Camo-Spec armored jacket: light armor plus a camouflage pattern (effects on Perception Tests, Rules p.77). Reversible day/night; multiple patterns. Street Index 1. Fields of Fire p.52." }
 ];
 
 let n = 0;

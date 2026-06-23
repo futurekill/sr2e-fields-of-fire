@@ -1,0 +1,37 @@
+{
+  "_id": "9b583cdad3b1e5c9",
+  "name": "Camo-Spec Jacket",
+  "type": "armor",
+  "img": "icons/svg/shield.svg",
+  "system": {
+    "ballistic": 5,
+    "impact": 3,
+    "concealability": 0,
+    "weight": 0,
+    "cost": 1200,
+    "availability": "5/36 hrs",
+    "legality": "Legal",
+    "equipped": false,
+    "isLayered": false,
+    "notes": "Patterson Fabrics Camo-Spec armored jacket: light armor plus a camouflage pattern (effects on Perception Tests, Rules p.77). Reversible day/night; multiple patterns. Street Index 1. Fields of Fire p.52."
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "sr2e",
+    "systemVersion": "0.0.1",
+    "createdTime": 1782000000000,
+    "modifiedTime": 1782000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!9b583cdad3b1e5c9"
+}

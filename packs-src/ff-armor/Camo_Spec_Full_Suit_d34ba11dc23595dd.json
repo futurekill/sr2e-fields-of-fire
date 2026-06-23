@@ -1,0 +1,37 @@
+{
+  "_id": "d34ba11dc23595dd",
+  "name": "Camo-Spec Full Suit",
+  "type": "armor",
+  "img": "icons/svg/shield.svg",
+  "system": {
+    "ballistic": 3,
+    "impact": 1,
+    "concealability": 0,
+    "weight": 0,
+    "cost": 800,
+    "availability": "4/30 hrs",
+    "legality": "Legal",
+    "equipped": false,
+    "isLayered": false,
+    "notes": "Patterson Fabrics Camo-Spec full suit: light armor plus a computer-designed camouflage pattern (effects on Perception Tests, Rules p.77). Reversible day/night; patterns Desert/Snow/Woodland/Urban/Winter Woodland. Street Index 1. Fields of Fire p.52."
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "sr2e",
+    "systemVersion": "0.0.1",
+    "createdTime": 1782000000000,
+    "modifiedTime": 1782000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!d34ba11dc23595dd"
+}
