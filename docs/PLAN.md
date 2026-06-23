@@ -36,16 +36,15 @@ offset 0 (PDF page = book page in the front matter / Field Pack).
    Impact so it's armor, not gear). `ff-gear` (22: climbing ×4, Smartlink II ×4,
    Tacticom comms ×6, BattleTac Integration, target designators ×5, GPS, Ares
    Sentry platform). The Cougar Fine Blade knives (p.55) went to `ff-weapons`.
-4. **Vehicles & drones** (p.62–70) → `ff-vehicles`. **NEXT.** Includes the Night
-   Glider (p.62, a vehicle not gear), GMC MPUV (63), Devil Rat APC (64), Striker
-   Light Tank (65), Titan Transport (66), Condor II (67 — note overlap with
-   Rigger 2 `r2-vehicles`), Steel Lynx drone (68), Ferret drone (69), Wasp/
-   Yellowjacket (70). **Confirm the FF vehicle stat-block convention first:** the
-   "B/A" column reads e.g. "2/9" (GMC MPUV) — Body 2 / Armor 9 by position — but
-   that's mechanically odd; the Night Glider showed a single "B/A 9". See
-   NEEDS-CAPTURE before transcribing.
-5. **Vehicle mods** (p.71–72) → `ff-vehicle-mods`. Vehicle Smoke Generator,
-   Ablative Vehicle Armor.
+4. ✅ **Vehicles & drones** (p.62–69) → `ff-vehicles` (8): Night Glider, GMC
+   MPUV, Devil Rat APC, Striker Light Tank, Titan Transport, Aerodesign Condor II
+   (overlaps a slightly different Rigger 2 entry — noted), Steel Lynx, Ferret.
+   B/A = Body/Armor (user-confirmed).
+5. ✅ **Vehicle mods** (p.70–72) → `ff-vehicle-mods` (7): Wasp & Yellowjacket
+   performance upgrades, small/large smoke generators, ablative vehicle armor
+   L1-3.
+
+**Field Pack complete — 89 items across 6 packs.**
 
 ## Notes / watch-outs
 - Some FF vehicles overlap Rigger 2 (Condor II) — this is the FF-native source;
