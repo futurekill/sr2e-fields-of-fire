@@ -36,8 +36,10 @@ const RANGE = {
 };
 const KIND = {
   firearm: { type: "firearm", skill: "firearms" },
-  heavy:   { type: "heavy",   skill: "heavy_weapons" }
+  heavy:   { type: "heavy",   skill: "heavy_weapons" },
+  melee:   { type: "melee",   skill: "armed_combat" }
 };
+RANGE.none = { short: 0, medium: 0, long: 0, extreme: 0 };
 
 function weapon(w) {
   const _id = idFor(w.name);
@@ -47,7 +49,7 @@ function weapon(w) {
     system: {
       weaponType: k.type, skill: w.skill ?? k.skill,
       damageCode: w.dmg, damageType: "physical",
-      concealability: w.conceal ?? 99, reach: 0,
+      concealability: w.conceal ?? 99, reach: w.reach ?? 0,
       firingModes: modes(w.mode ?? "SS"),
       ammo: { current: w.ammo ?? 0, max: w.ammo ?? 0, type: w.ammoType ?? "clip" },
       recoilComp: w.rc ?? 0, smartgunCompatible: w.smart ?? false,
@@ -112,7 +114,13 @@ const WEAPONS = [
   { name: "Ares MP Laser III", kind: "heavy", skill: "heavy_weapons", conceal: 99, ammo: 20, mode: "SA", dmg: "15M", wt: 25, avail: "24/21 days", cost: 120000, index: 3, range: "ffSniper", ammoType: "battery", legality: "Forbidden",
     notes: "Self-contained man-portable laser with detachable rapid-swap battery packs. Range via the FF Weapon Range Table (Sniper Rifle row); Power −2 per range band beyond Short. Ignores Ballistic Armor, halves Impact Armor (round down); −1 Damage vs vehicles; smoke −1 Power per 2m. Recoil modifiers don't apply. Fields of Fire p.49." },
   { name: "Ares FireLance Vehicle Laser", kind: "heavy", skill: "gunnery", conceal: 99, ammo: 40, mode: "SA", dmg: "15S", wt: 48, avail: "", cost: 300000, index: "", range: "ffAssault", ammoType: "battery", legality: "Forbidden",
-    notes: "Turret-mounted vehicle laser for small/medium vehicles; high recharge rate engages multiple targets, long mean time between failures. Range via the FF Weapon Range Table (Assault Rifle row); Power −2 per band beyond Short. Ignores Ballistic Armor, halves Impact (round down); −1 Damage vs vehicles; smoke −1 Power per 4m. Vehicle-mounted (Gunnery). Availability/Street Index unknown. Fields of Fire p.50." }
+    notes: "Turret-mounted vehicle laser for small/medium vehicles; high recharge rate engages multiple targets, long mean time between failures. Range via the FF Weapon Range Table (Assault Rifle row); Power −2 per band beyond Short. Ignores Ballistic Armor, halves Impact (round down); −1 Damage vs vehicles; smoke −1 Power per 4m. Vehicle-mounted (Gunnery). Availability/Street Index unknown. Fields of Fire p.50." },
+
+  // --- Melee (book p.55). Cougar Fine Blade — molecular-bonded combat knives. ---
+  { name: "Cougar Fine Blade (Short)", kind: "melee", conceal: 8, reach: 0, dmg: "(Str)M", wt: 0.5, avail: "5/72 hrs", cost: 800, index: 3, range: "none", legality: "Legal",
+    notes: "Short-blade version of the Cougar Fineblade combat knife: double-edged, state-of-the-art molecular bonding/edging, wire-cutting notch, hardened grip and pommel. No special properties. Fields of Fire p.55." },
+  { name: "Cougar Fine Blade (Long)", kind: "melee", conceal: 6, reach: 0, dmg: "(Str+1)M", wt: 0.75, avail: "8/72 hrs", cost: 1500, index: 3, range: "none", legality: "Legal",
+    notes: "Long-blade version of the Cougar Fineblade combat knife: double-edged, molecular-bonded edge, wire-cutting notch, hardened grip and pommel. No special properties. Fields of Fire p.55." }
 ];
 
 let n = 0;

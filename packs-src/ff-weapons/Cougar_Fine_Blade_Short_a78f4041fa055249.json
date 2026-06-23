@@ -1,0 +1,61 @@
+{
+  "_id": "a78f4041fa055249",
+  "name": "Cougar Fine Blade (Short)",
+  "type": "weapon",
+  "img": "icons/svg/explosion.svg",
+  "system": {
+    "weaponType": "melee",
+    "skill": "armed_combat",
+    "damageCode": "(Str)M",
+    "damageType": "physical",
+    "concealability": 8,
+    "reach": 0,
+    "firingModes": {
+      "ss": true,
+      "sa": false,
+      "bf": false,
+      "fa": false
+    },
+    "ammo": {
+      "current": 0,
+      "max": 0,
+      "type": "clip"
+    },
+    "recoilComp": 0,
+    "smartgunCompatible": false,
+    "ranges": {
+      "short": 0,
+      "medium": 0,
+      "long": 0,
+      "extreme": 0
+    },
+    "strengthMin": 0,
+    "weight": 0.5,
+    "cost": 800,
+    "availability": "5/72 hrs",
+    "legality": "Legal",
+    "streetIndex": "3",
+    "equipped": false,
+    "accessories": [],
+    "notes": "Short-blade version of the Cougar Fineblade combat knife: double-edged, state-of-the-art molecular bonding/edging, wire-cutting notch, hardened grip and pommel. No special properties. Fields of Fire p.55."
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "sr2e",
+    "systemVersion": "0.0.1",
+    "createdTime": 1782000000000,
+    "modifiedTime": 1782000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!a78f4041fa055249"
+}

@@ -1,0 +1,61 @@
+{
+  "_id": "25d5637dee3a5ad2",
+  "name": "Cougar Fine Blade (Long)",
+  "type": "weapon",
+  "img": "icons/svg/explosion.svg",
+  "system": {
+    "weaponType": "melee",
+    "skill": "armed_combat",
+    "damageCode": "(Str+1)M",
+    "damageType": "physical",
+    "concealability": 6,
+    "reach": 0,
+    "firingModes": {
+      "ss": true,
+      "sa": false,
+      "bf": false,
+      "fa": false
+    },
+    "ammo": {
+      "current": 0,
+      "max": 0,
+      "type": "clip"
+    },
+    "recoilComp": 0,
+    "smartgunCompatible": false,
+    "ranges": {
+      "short": 0,
+      "medium": 0,
+      "long": 0,
+      "extreme": 0
+    },
+    "strengthMin": 0,
+    "weight": 0.75,
+    "cost": 1500,
+    "availability": "8/72 hrs",
+    "legality": "Legal",
+    "streetIndex": "3",
+    "equipped": false,
+    "accessories": [],
+    "notes": "Long-blade version of the Cougar Fineblade combat knife: double-edged, molecular-bonded edge, wire-cutting notch, hardened grip and pommel. No special properties. Fields of Fire p.55."
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "sr2e",
+    "systemVersion": "0.0.1",
+    "createdTime": 1782000000000,
+    "modifiedTime": 1782000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!25d5637dee3a5ad2"
+}
