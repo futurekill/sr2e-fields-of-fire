@@ -1,0 +1,42 @@
+{
+  "_id": "ce8b7160d366b114",
+  "name": "Smartlink Level II (External)",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "category": "smartlink",
+    "rating": 0,
+    "quantity": 1,
+    "weight": 0.75,
+    "cost": 800,
+    "availability": "6/48 hrs",
+    "legality": "Restricted",
+    "equipped": false,
+    "concealability": -2,
+    "weaponAccessory": true,
+    "linkedWeaponId": "",
+    "combatTnMod": 0,
+    "accessoryRecoilComp": 0,
+    "requiresSmartgun": false,
+    "notes": "External Smartlink II weapon unit (top/under mount). Faster, cleaner cross-vendor smartgun linkage per the ADVAT.328 protocol; back-compatible with Level I. Street Index 2. Fields of Fire p.57."
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "sr2e",
+    "systemVersion": "0.0.1",
+    "createdTime": 1782000000000,
+    "modifiedTime": 1782000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!ce8b7160d366b114"
+}

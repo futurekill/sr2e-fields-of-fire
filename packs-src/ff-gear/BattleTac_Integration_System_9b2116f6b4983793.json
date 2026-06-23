@@ -1,0 +1,42 @@
+{
+  "_id": "9b2116f6b4983793",
+  "name": "BattleTac Integration System",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "category": "tactical",
+    "rating": 0,
+    "quantity": 1,
+    "weight": 0,
+    "cost": 0,
+    "availability": "",
+    "legality": "Restricted",
+    "equipped": false,
+    "concealability": 0,
+    "weaponAccessory": false,
+    "linkedWeaponId": "",
+    "combatTnMod": 0,
+    "accessoryRecoilComp": 0,
+    "requiresSmartgun": false,
+    "notes": "Sony BattleTac tactical telecom + data-transfer network linking allied soldiers. Requires the Special Skill: Small Unit Tactics (and a BattleTac unit). Users take a −2 modifier to all target numbers whenever the network is active (rules p.84). Fields of Fire p.59."
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "sr2e",
+    "systemVersion": "0.0.1",
+    "createdTime": 1782000000000,
+    "modifiedTime": 1782000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!9b2116f6b4983793"
+}

@@ -1,0 +1,42 @@
+{
+  "_id": "06b39b3dbd2f9ff8",
+  "name": "Tacticom Satellite Uplink",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "category": "comms",
+    "rating": 0,
+    "quantity": 1,
+    "weight": 2,
+    "cost": 7500,
+    "availability": "12/21 days",
+    "legality": "Restricted",
+    "equipped": false,
+    "concealability": 0,
+    "weaponAccessory": false,
+    "linkedWeaponId": "",
+    "combatTnMod": 0,
+    "accessoryRecoilComp": 0,
+    "requiresSmartgun": false,
+    "notes": "Satellite uplink for the Tacticom system. Street Index 3. Fields of Fire p.58."
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "sr2e",
+    "systemVersion": "0.0.1",
+    "createdTime": 1782000000000,
+    "modifiedTime": 1782000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!06b39b3dbd2f9ff8"
+}

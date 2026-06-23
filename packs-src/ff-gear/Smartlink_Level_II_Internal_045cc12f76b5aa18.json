@@ -1,0 +1,42 @@
+{
+  "_id": "045cc12f76b5aa18",
+  "name": "Smartlink Level II (Internal)",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "category": "smartlink",
+    "rating": 0,
+    "quantity": 1,
+    "weight": 0.25,
+    "cost": 0,
+    "availability": "",
+    "legality": "Restricted",
+    "equipped": false,
+    "concealability": 0,
+    "weaponAccessory": true,
+    "linkedWeaponId": "",
+    "combatTnMod": 0,
+    "accessoryRecoilComp": 0,
+    "requiresSmartgun": false,
+    "notes": "Internal Smartlink II built into the weapon: cost +250% of the weapon's price; Availability and Street Index equal the weapon's. Fields of Fire p.57."
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "sr2e",
+    "systemVersion": "0.0.1",
+    "createdTime": 1782000000000,
+    "modifiedTime": 1782000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!045cc12f76b5aa18"
+}

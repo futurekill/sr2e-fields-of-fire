@@ -1,0 +1,42 @@
+{
+  "_id": "814bf99645ffc3b1",
+  "name": "Ares Sentry Weapon Platform",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "category": "weapon_platform",
+    "rating": 6,
+    "quantity": 1,
+    "weight": 0,
+    "cost": 22000,
+    "availability": "12/21 days",
+    "legality": "Forbidden",
+    "equipped": false,
+    "concealability": 0,
+    "weaponAccessory": false,
+    "linkedWeaponId": "",
+    "combatTnMod": 0,
+    "accessoryRecoilComp": 0,
+    "requiresSmartgun": false,
+    "notes": "Automated robotic weapon mount (Ares Sentry): Intelligence 6 (+1 per added sensor), Firearms Skill 5 (+1 per 5,000¥ or extra sensor), integral thermographic + pulse-radar sensors. Initiative 15+1D6 (raise to 20+2D6 for 10,000¥ or 25+3D6 for 20,000¥). Mounts a weapon up to a light machine gun; tripod or 300° rotation; Barrier Rating 12. Standard cost 22,000¥ +10% for customization; extra sensors 2,000¥; incline/decline targeting 3,000¥. Plus the weapon, ammo, and recoil comp. Street Index 4. Fields of Fire p.46."
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "sr2e",
+    "systemVersion": "0.0.1",
+    "createdTime": 1782000000000,
+    "modifiedTime": 1782000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!814bf99645ffc3b1"
+}

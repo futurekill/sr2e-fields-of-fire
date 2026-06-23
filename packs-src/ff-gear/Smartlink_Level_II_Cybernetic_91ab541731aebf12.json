@@ -1,0 +1,42 @@
+{
+  "_id": "91ab541731aebf12",
+  "name": "Smartlink Level II (Cybernetic)",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "category": "cyberware",
+    "rating": 0,
+    "quantity": 1,
+    "weight": 0,
+    "cost": 3200,
+    "availability": "6/48 hrs",
+    "legality": "Restricted",
+    "equipped": false,
+    "concealability": 0,
+    "weaponAccessory": false,
+    "linkedWeaponId": "",
+    "combatTnMod": 0,
+    "accessoryRecoilComp": 0,
+    "requiresSmartgun": false,
+    "notes": "Implanted Smartlink II (cyberware: Essence Cost 0.5). Street Index 2. Fields of Fire p.57. (No ff-cyberware pack; modeled here as gear — treat as a 0.5-Essence implant.)"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "sr2e",
+    "systemVersion": "0.0.1",
+    "createdTime": 1782000000000,
+    "modifiedTime": 1782000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!91ab541731aebf12"
+}

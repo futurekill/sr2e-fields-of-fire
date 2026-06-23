@@ -1,0 +1,42 @@
+{
+  "_id": "aad8bb692c4beeb7",
+  "name": "Microwave Designator",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "category": "targeting",
+    "rating": 0,
+    "quantity": 1,
+    "weight": 4.5,
+    "cost": 12500,
+    "availability": "24/1 mth",
+    "legality": "Restricted",
+    "equipped": false,
+    "concealability": 0,
+    "weaponAccessory": false,
+    "linkedWeaponId": "",
+    "combatTnMod": 0,
+    "accessoryRecoilComp": 0,
+    "requiresSmartgun": false,
+    "notes": "Microwave-pulse target designator (range ~8,000 km). Street Index 2. Fields of Fire p.60."
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "sr2e",
+    "systemVersion": "0.0.1",
+    "createdTime": 1782000000000,
+    "modifiedTime": 1782000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!aad8bb692c4beeb7"
+}

@@ -1,0 +1,42 @@
+{
+  "_id": "ba6161894a67a3e5",
+  "name": "Ascent/Descent Harness",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "category": "climbing",
+    "rating": 0,
+    "quantity": 1,
+    "weight": 0.25,
+    "cost": 75,
+    "availability": "Always",
+    "legality": "Legal",
+    "equipped": false,
+    "concealability": 0,
+    "weaponAccessory": false,
+    "linkedWeaponId": "",
+    "combatTnMod": 0,
+    "accessoryRecoilComp": 0,
+    "requiresSmartgun": false,
+    "notes": "Duraflex quick-release climbing harness (holds 2,000 kg). Climbing rules p.75-76. Street Index 1. Fields of Fire p.56."
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "sr2e",
+    "systemVersion": "0.0.1",
+    "createdTime": 1782000000000,
+    "modifiedTime": 1782000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!ba6161894a67a3e5"
+}
