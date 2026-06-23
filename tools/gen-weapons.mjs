@@ -14,15 +14,16 @@ const modes = (s) => {
   const p = (s || "").split("/");
   return { ss: p.includes("SS"), sa: p.includes("SA"), bf: p.includes("BF"), fa: p.includes("FA") };
 };
-// Standard SR2 range brackets (upper metre bound per bracket) by class.
+// Range brackets (upper metre bound per bracket) from the Fields of Fire Weapon
+// Range Table (book p.87) — the authoritative range table for FF weapons.
 const RANGE = {
   pistolL: { short: 5,  medium: 15,  long: 30,  extreme: 50 },
   pistolH: { short: 5,  medium: 20,  long: 40,  extreme: 60 },
   smg:     { short: 10, medium: 40,  long: 80,  extreme: 150 },
-  assault: { short: 25, medium: 100, long: 250, extreme: 500 },
-  sniper:  { short: 50, medium: 350, long: 800, extreme: 1500 },
-  shotgun: { short: 10, medium: 20,  long: 40,  extreme: 60 },
-  mg:      { short: 50, medium: 150, long: 350, extreme: 550 },
+  assault: { short: 15, medium: 40,  long: 100, extreme: 250 },
+  sniper:  { short: 40, medium: 80,  long: 200, extreme: 400 },
+  shotgun: { short: 10, medium: 20,  long: 50,  extreme: 100 },
+  mg:      { short: 20, medium: 40,  long: 80,  extreme: 150 }, // Light Machine Gun row
   // Heavy / launch weapons — Fields of Fire Weapon Range Table (book p.87).
   grenadeLauncher: { short: 50,  medium: 100,  long: 150,  extreme: 300 },
   missileLauncher: { short: 70,  medium: 150,  long: 450,  extreme: 1500 },
