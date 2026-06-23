@@ -1,0 +1,35 @@
+{
+  "_id": "9fb348648228a02f",
+  "name": "Flash Grenade",
+  "type": "ammo",
+  "img": "icons/svg/target.svg",
+  "system": {
+    "ammoType": "grenade",
+    "quantity": 1,
+    "damageModifier": 0,
+    "armorModifier": 0,
+    "damageType": "",
+    "armorCalc": "standard",
+    "cost": 40,
+    "notes": "Flash-bang grenade — Special effect (see Street Samurai Catalog p.44), no Damage Code. Concealability 6, Availability 4/48 hrs, Street Index 1. Fields of Fire p.48."
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "sr2e",
+    "systemVersion": "0.0.1",
+    "createdTime": 1782000000000,
+    "modifiedTime": 1782000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!9fb348648228a02f"
+}

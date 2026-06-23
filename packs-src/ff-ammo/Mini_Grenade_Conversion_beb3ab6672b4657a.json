@@ -1,0 +1,35 @@
+{
+  "_id": "beb3ab6672b4657a",
+  "name": "Mini-Grenade Conversion",
+  "type": "ammo",
+  "img": "icons/svg/target.svg",
+  "system": {
+    "ammoType": "grenade",
+    "quantity": 1,
+    "damageModifier": 0,
+    "armorModifier": 0,
+    "damageType": "",
+    "armorCalc": "standard",
+    "cost": 0,
+    "notes": "Mini-grenade form factor for grenade launchers (MGL-12 / Mini-6). Damage is the base grenade's; applies to the base grenade: Concealability 8, weight .1, Availability +2, Cost ×2, Street Index +1. Fields of Fire p.48."
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "sr2e",
+    "systemVersion": "0.0.1",
+    "createdTime": 1782000000000,
+    "modifiedTime": 1782000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!beb3ab6672b4657a"
+}

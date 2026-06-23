@@ -1,0 +1,35 @@
+{
+  "_id": "79d1b5c455c7b5a6",
+  "name": "EX Explosive Rounds",
+  "type": "ammo",
+  "img": "icons/svg/target.svg",
+  "system": {
+    "ammoType": "explosive",
+    "quantity": 10,
+    "damageModifier": 2,
+    "armorModifier": 0,
+    "damageType": "",
+    "armorCalc": "standard",
+    "cost": 100,
+    "notes": "Explosive firearm rounds: +2 to the weapon's Power, all other standard rules. Concealability 8, Availability 6/72 hrs, Street Index 5, weight .75 (per box). Fields of Fire p.51."
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "sr2e",
+    "systemVersion": "0.0.1",
+    "createdTime": 1782000000000,
+    "modifiedTime": 1782000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!79d1b5c455c7b5a6"
+}

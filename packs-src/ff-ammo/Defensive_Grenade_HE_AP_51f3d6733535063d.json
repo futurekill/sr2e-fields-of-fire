@@ -1,0 +1,35 @@
+{
+  "_id": "51f3d6733535063d",
+  "name": "Defensive Grenade (HE/AP)",
+  "type": "ammo",
+  "img": "icons/svg/target.svg",
+  "system": {
+    "ammoType": "grenade",
+    "quantity": 1,
+    "damageModifier": 0,
+    "armorModifier": 0,
+    "damageType": "",
+    "armorCalc": "standard",
+    "cost": 30,
+    "notes": "Defensive grenade (HE or AP) — tighter blast falloff so a thrower behind cover is safer. Damage 10S, blast −1/0.5 meter. Concealability 6, Availability 4 days, Street Index 2. Fields of Fire p.48."
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "sr2e",
+    "systemVersion": "0.0.1",
+    "createdTime": 1782000000000,
+    "modifiedTime": 1782000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!51f3d6733535063d"
+}

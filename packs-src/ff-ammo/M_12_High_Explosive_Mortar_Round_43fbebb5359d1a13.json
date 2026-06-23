@@ -1,0 +1,35 @@
+{
+  "_id": "43fbebb5359d1a13",
+  "name": "M-12 High-Explosive Mortar Round",
+  "type": "ammo",
+  "img": "icons/svg/target.svg",
+  "system": {
+    "ammoType": "mortar",
+    "quantity": 1,
+    "damageModifier": 0,
+    "armorModifier": 0,
+    "damageType": "",
+    "armorCalc": "standard",
+    "cost": 200,
+    "notes": "HE mortar round. Damage 18D, blast −1/0.5 meter. Availability 18/14 days, Street Index 3, weight 4.0. Fields of Fire p.45."
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "sr2e",
+    "systemVersion": "0.0.1",
+    "createdTime": 1782000000000,
+    "modifiedTime": 1782000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!43fbebb5359d1a13"
+}
