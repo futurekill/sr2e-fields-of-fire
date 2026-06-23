@@ -1,6 +1,6 @@
 {
   "name": "sr2e-fields-of-fire",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "private": true,
   "description": "Fields of Fire content module for the SR2E FoundryVTT system",
   "type": "module",

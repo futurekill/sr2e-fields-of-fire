@@ -2,7 +2,7 @@
   "id": "sr2e-fields-of-fire",
   "title": "Shadowrun 2E: Fields of Fire",
   "description": "Mercenary weapons, ammunition, armor, gear, and vehicles from Fields of Fire (FASA 7114) as compendia for the Shadowrun 2nd Edition system.",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "compatibility": {
     "minimum": "13",
     "verified": "13"
@@ -12,26 +12,97 @@
       {
         "id": "sr2e",
         "type": "system",
-        "compatibility": { "minimum": "0.9.0" }
+        "compatibility": {
+          "minimum": "0.9.0"
+        }
       }
     ]
   },
   "authors": [
-    { "name": "James Candalino" }
+    {
+      "name": "James Candalino"
+    }
   ],
   "packs": [
-    { "name": "ff-weapons",      "label": "FF Weapons",          "path": "packs/ff-weapons",      "type": "Item",  "system": "sr2e", "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" } },
-    { "name": "ff-ammo",         "label": "FF Ammunition",       "path": "packs/ff-ammo",         "type": "Item",  "system": "sr2e", "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" } },
-    { "name": "ff-armor",        "label": "FF Armor",            "path": "packs/ff-armor",        "type": "Item",  "system": "sr2e", "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" } },
-    { "name": "ff-gear",         "label": "FF Gear",             "path": "packs/ff-gear",         "type": "Item",  "system": "sr2e", "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" } },
-    { "name": "ff-vehicles",     "label": "FF Vehicles & Drones","path": "packs/ff-vehicles",     "type": "Actor", "system": "sr2e", "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" } },
-    { "name": "ff-vehicle-mods", "label": "FF Vehicle Mods",     "path": "packs/ff-vehicle-mods", "type": "Item",  "system": "sr2e", "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" } }
+    {
+      "name": "ff-weapons",
+      "label": "FF Weapons",
+      "path": "packs/ff-weapons",
+      "type": "Item",
+      "system": "sr2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "ff-ammo",
+      "label": "FF Ammunition",
+      "path": "packs/ff-ammo",
+      "type": "Item",
+      "system": "sr2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "ff-armor",
+      "label": "FF Armor",
+      "path": "packs/ff-armor",
+      "type": "Item",
+      "system": "sr2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "ff-gear",
+      "label": "FF Gear",
+      "path": "packs/ff-gear",
+      "type": "Item",
+      "system": "sr2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "ff-vehicles",
+      "label": "FF Vehicles & Drones",
+      "path": "packs/ff-vehicles",
+      "type": "Actor",
+      "system": "sr2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "ff-vehicle-mods",
+      "label": "FF Vehicle Mods",
+      "path": "packs/ff-vehicle-mods",
+      "type": "Item",
+      "system": "sr2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
   ],
   "packFolders": [
     {
       "name": "Fields of Fire",
       "sorting": "m",
-      "packs": ["ff-weapons", "ff-ammo", "ff-armor", "ff-gear", "ff-vehicles", "ff-vehicle-mods"]
+      "packs": [
+        "ff-weapons",
+        "ff-ammo",
+        "ff-armor",
+        "ff-gear",
+        "ff-vehicles",
+        "ff-vehicle-mods"
+      ]
     }
   ],
   "flags": {}

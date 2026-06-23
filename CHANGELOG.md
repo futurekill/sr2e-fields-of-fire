@@ -1,6 +1,25 @@
 # Changelog
 
-## 0.0.1 (in development)
+## 0.1.0
+
+First release. The complete *Fields of Fire* (FASA 7114) **Field Pack** (book
+p.26–72) as SR2E compendia — **89 items across 6 packs**, every value verified
+against the page renders.
+
+| Pack | Count |
+|---|---|
+| `ff-weapons` | 24 |
+| `ff-ammo` | 21 |
+| `ff-armor` | 7 |
+| `ff-gear` | 22 |
+| `ff-vehicles` | 8 |
+| `ff-vehicle-mods` | 7 |
+
+Firearm ranges use the FF Weapon Range Table (book p.87). Vehicle "B/A" =
+Body/Armor. Only the narrative (p.5–24) and Rules (p.73–86) sections are
+intentionally out of scope.
+
+## 0.0.1 (development history)
 
 ### Firearms (`ff-weapons`, 13)
 - All Field Pack firearms (book p.26-38): Walther PB-120, Hammerli Model 610s,
