@@ -2,7 +2,7 @@
   "id": "sr2e-fields-of-fire",
   "title": "Shadowrun 2E: Fields of Fire",
   "description": "Mercenary weapons, ammunition, armor, gear, and vehicles from Fields of Fire (FASA 7114) as compendia for the Shadowrun 2nd Edition system.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "compatibility": {
     "minimum": "13",
     "verified": "13"

@@ -90,5 +90,9 @@ jobs:
             module.json
             ${{ env.MODULE_ID }}.zip
           artifactContentType: application/zip
+          # Idempotent: create the release if missing, or update it (and replace
+          # its assets) if the tag was already pushed — so re-running is safe.
+          allowUpdates: true
+          replacesArtifacts: true
           prerelease: ${{ contains(steps.version.outputs.version, 'alpha') || contains(steps.version.outputs.version, 'beta') || contains(steps.version.outputs.version, 'rc') }}
           draft: false
