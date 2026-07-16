@@ -32,10 +32,17 @@ and the *Rules* section (p.73–86) are flavour/mechanics, not compendium items.
 - **Vehicles** (p.63–72): LAVs/transports/drones → `ff-vehicles`; vehicle smoke
   generator & ablative vehicle armor → `ff-vehicle-mods`
 
-## Packs are COMMITTED (not gitignored)
-Like Rigger 2, `packs/` (the built LevelDB) is committed (a gitignored build
-artifact can get wiped and leave Foundry showing empty compendiums). Close
-Foundry before rebuilding packs (LevelDB locks).
+## Packs are a build artifact (gitignored)
+`packs/` (the built LevelDB) is **gitignored**. Foundry recompacts it every
+session, so committing it churns the tree with meaningless diffs. `packs-src/` is
+the source of truth; the release workflow rebuilds `packs/` from it, so installed
+users always get built compendia.
+
+**A fresh clone has no `packs/` — run `npm run build-packs` before pointing
+Foundry at this folder, or the compendiums show up empty.** Likewise, after
+editing `packs-src/` (or re-running a generator), rebuild before testing: Foundry
+reads the LevelDB, not the JSON, and a stale build silently serves old data.
+Close Foundry before rebuilding (LevelDB locks).
 
 ## Authoring conventions
 - **Stat blocks** (game facts) into per-document JSON, with **original/
@@ -46,7 +53,7 @@ Foundry before rebuilding packs (LevelDB locks).
 
 ## Build workflow
 `packs-src/` (JSON, source of truth) → `npm run build-packs [name]` → `packs/`
-(committed LevelDB). `npm run extract-packs` pulls Foundry edits back.
+(built LevelDB, gitignored). `npm run extract-packs` pulls Foundry edits back.
 `npm run validate` checks JSON/keys/dup-ids/counts.
 
 ## Copyright
