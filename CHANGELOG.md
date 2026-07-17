@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.1.1
+
+Packaging only — no content change. Cut the first published GitHub release with an
+idempotent release workflow, untracked the `packs/` LevelDB build (rebuilt in CI),
+and moved the CI actions off the deprecated Node 20.
+
 ## 0.1.0
 
 First release. The complete *Fields of Fire* (FASA 7114) **Field Pack** (book
