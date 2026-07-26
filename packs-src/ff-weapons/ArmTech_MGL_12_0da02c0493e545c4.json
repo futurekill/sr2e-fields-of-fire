@@ -2,7 +2,7 @@
   "_id": "0da02c0493e545c4",
   "name": "ArmTech MGL-12",
   "type": "weapon",
-  "img": "icons/svg/explosion.svg",
+  "img": "modules/sr2e-fields-of-fire/assets/item_icons/weapon/armtech-mgl-12.webp",
   "system": {
     "weaponType": "heavy",
     "skill": "launch_weapons",

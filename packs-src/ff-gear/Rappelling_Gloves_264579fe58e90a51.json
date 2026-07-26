@@ -2,7 +2,7 @@
   "_id": "264579fe58e90a51",
   "name": "Rappelling Gloves",
   "type": "gear",
-  "img": "icons/svg/item-bag.svg",
+  "img": "modules/sr2e-fields-of-fire/assets/item_icons/gear/rappelling-gloves.webp",
   "system": {
     "category": "climbing",
     "rating": 0,

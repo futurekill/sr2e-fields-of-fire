@@ -2,7 +2,7 @@
   "_id": "537e0a6a12df2030",
   "name": "Sony Nav-Dat GPS",
   "type": "gear",
-  "img": "icons/svg/item-bag.svg",
+  "img": "modules/sr2e-fields-of-fire/assets/item_icons/gear/sony-nav-dat-gps.webp",
   "system": {
     "category": "navigation",
     "rating": 0,

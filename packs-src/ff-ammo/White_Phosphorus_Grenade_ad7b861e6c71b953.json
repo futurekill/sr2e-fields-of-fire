@@ -2,7 +2,7 @@
   "_id": "ad7b861e6c71b953",
   "name": "White Phosphorus Grenade",
   "type": "ammo",
-  "img": "icons/svg/target.svg",
+  "img": "modules/sr2e-fields-of-fire/assets/item_icons/ammo/white-phosphorus-grenade.webp",
   "system": {
     "ammoType": "grenade",
     "quantity": 1,

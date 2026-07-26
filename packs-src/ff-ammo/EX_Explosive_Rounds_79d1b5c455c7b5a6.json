@@ -2,7 +2,7 @@
   "_id": "79d1b5c455c7b5a6",
   "name": "EX Explosive Rounds",
   "type": "ammo",
-  "img": "icons/svg/target.svg",
+  "img": "modules/sr2e-fields-of-fire/assets/item_icons/ammo/ex-explosive-rounds.webp",
   "system": {
     "ammoType": "explosive",
     "quantity": 10,

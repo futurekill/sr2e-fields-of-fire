@@ -2,7 +2,7 @@
   "_id": "ab2eab7288432910",
   "name": "Smoke Grenade (IR)",
   "type": "ammo",
-  "img": "icons/svg/target.svg",
+  "img": "modules/sr2e-fields-of-fire/assets/item_icons/ammo/smoke-grenade-ir.webp",
   "system": {
     "ammoType": "grenade",
     "quantity": 1,

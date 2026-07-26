@@ -2,7 +2,7 @@
   "_id": "727cc9c451df6519",
   "name": "M-12 Anti-Personnel Mortar Round",
   "type": "ammo",
-  "img": "icons/svg/target.svg",
+  "img": "modules/sr2e-fields-of-fire/assets/item_icons/ammo/m-12-anti-personnel-mortar-round.webp",
   "system": {
     "ammoType": "mortar",
     "quantity": 1,

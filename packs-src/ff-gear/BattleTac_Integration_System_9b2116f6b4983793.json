@@ -2,7 +2,7 @@
   "_id": "9b2116f6b4983793",
   "name": "BattleTac Integration System",
   "type": "gear",
-  "img": "icons/svg/item-bag.svg",
+  "img": "modules/sr2e-fields-of-fire/assets/item_icons/gear/battletac-integration-system.webp",
   "system": {
     "category": "tactical",
     "rating": 0,

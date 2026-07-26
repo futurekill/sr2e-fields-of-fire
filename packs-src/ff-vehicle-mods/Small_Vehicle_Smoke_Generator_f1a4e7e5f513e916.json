@@ -2,7 +2,7 @@
   "_id": "f1a4e7e5f513e916",
   "name": "Small Vehicle Smoke Generator",
   "type": "vehicle_mod",
-  "img": "icons/svg/upgrade.svg",
+  "img": "modules/sr2e-fields-of-fire/assets/item_icons/vehicle_mod/small-vehicle-smoke-generator.webp",
   "system": {
     "modType": "smoke",
     "rating": 0,

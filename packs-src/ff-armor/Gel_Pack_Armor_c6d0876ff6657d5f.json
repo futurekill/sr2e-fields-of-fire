@@ -2,7 +2,7 @@
   "_id": "c6d0876ff6657d5f",
   "name": "Gel-Pack Armor",
   "type": "armor",
-  "img": "icons/svg/shield.svg",
+  "img": "modules/sr2e-fields-of-fire/assets/item_icons/armor/gel-pack-armor.webp",
   "system": {
     "ballistic": 0,
     "impact": 0,

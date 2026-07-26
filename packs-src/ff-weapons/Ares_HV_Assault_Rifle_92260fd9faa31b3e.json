@@ -2,7 +2,7 @@
   "_id": "92260fd9faa31b3e",
   "name": "Ares HV Assault Rifle",
   "type": "weapon",
-  "img": "icons/svg/explosion.svg",
+  "img": "modules/sr2e-fields-of-fire/assets/item_icons/weapon/ares-hv-assault-rifle.webp",
   "system": {
     "weaponType": "firearm",
     "skill": "firearms",

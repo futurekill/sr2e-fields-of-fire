@@ -2,7 +2,7 @@
   "_id": "e5d6670956508806",
   "name": "Tacticom Portable Master Unit",
   "type": "gear",
-  "img": "icons/svg/item-bag.svg",
+  "img": "modules/sr2e-fields-of-fire/assets/item_icons/gear/tacticom-portable-master-unit.webp",
   "system": {
     "category": "comms",
     "rating": 14,

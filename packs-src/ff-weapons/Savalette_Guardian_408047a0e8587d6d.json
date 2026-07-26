@@ -2,7 +2,7 @@
   "_id": "408047a0e8587d6d",
   "name": "Savalette Guardian",
   "type": "weapon",
-  "img": "icons/svg/explosion.svg",
+  "img": "modules/sr2e-fields-of-fire/assets/item_icons/weapon/savalette-guardian.webp",
   "system": {
     "weaponType": "firearm",
     "skill": "firearms",

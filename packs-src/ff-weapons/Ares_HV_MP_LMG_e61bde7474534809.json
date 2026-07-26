@@ -2,7 +2,7 @@
   "_id": "e61bde7474534809",
   "name": "Ares HV MP-LMG",
   "type": "weapon",
-  "img": "icons/svg/explosion.svg",
+  "img": "modules/sr2e-fields-of-fire/assets/item_icons/weapon/ares-hv-mp-lmg.webp",
   "system": {
     "weaponType": "heavy",
     "skill": "heavy_weapons",

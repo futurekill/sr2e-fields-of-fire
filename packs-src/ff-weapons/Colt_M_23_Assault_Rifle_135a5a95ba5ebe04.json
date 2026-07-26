@@ -2,7 +2,7 @@
   "_id": "135a5a95ba5ebe04",
   "name": "Colt M-23 Assault Rifle",
   "type": "weapon",
-  "img": "icons/svg/explosion.svg",
+  "img": "modules/sr2e-fields-of-fire/assets/item_icons/weapon/colt-m-23-assault-rifle.webp",
   "system": {
     "weaponType": "firearm",
     "skill": "firearms",

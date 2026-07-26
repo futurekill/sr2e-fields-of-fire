@@ -2,7 +2,7 @@
   "_id": "ce8b7160d366b114",
   "name": "Smartlink Level II (External)",
   "type": "gear",
-  "img": "icons/svg/item-bag.svg",
+  "img": "modules/sr2e-fields-of-fire/assets/item_icons/gear/smartlink-level-ii-external.webp",
   "system": {
     "category": "smartlink",
     "rating": 0,

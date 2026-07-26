@@ -2,7 +2,7 @@
   "_id": "bf3976c3e8769138",
   "name": "IPE Concussion Grenade",
   "type": "ammo",
-  "img": "icons/svg/target.svg",
+  "img": "modules/sr2e-fields-of-fire/assets/item_icons/ammo/ipe-concussion-grenade.webp",
   "system": {
     "ammoType": "grenade",
     "quantity": 1,

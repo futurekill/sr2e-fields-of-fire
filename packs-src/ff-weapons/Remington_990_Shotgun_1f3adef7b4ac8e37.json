@@ -2,7 +2,7 @@
   "_id": "1f3adef7b4ac8e37",
   "name": "Remington 990 Shotgun",
   "type": "weapon",
-  "img": "icons/svg/explosion.svg",
+  "img": "modules/sr2e-fields-of-fire/assets/item_icons/weapon/remington-990-shotgun.webp",
   "system": {
     "weaponType": "firearm",
     "skill": "firearms",

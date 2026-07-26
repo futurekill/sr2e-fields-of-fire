@@ -2,7 +2,7 @@
   "_id": "053f9d538b137324",
   "name": "Ablative Vehicle Armor (Level 3)",
   "type": "vehicle_mod",
-  "img": "icons/svg/upgrade.svg",
+  "img": "modules/sr2e-fields-of-fire/assets/item_icons/vehicle_mod/ablative-vehicle-armor-level-3.webp",
   "system": {
     "modType": "armor",
     "rating": 3,

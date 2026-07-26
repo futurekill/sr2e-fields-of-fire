@@ -2,7 +2,7 @@
   "_id": "10601f678f85cd18",
   "name": "Franchi SPAS-22",
   "type": "weapon",
-  "img": "icons/svg/explosion.svg",
+  "img": "modules/sr2e-fields-of-fire/assets/item_icons/weapon/franchi-spas-22.webp",
   "system": {
     "weaponType": "firearm",
     "skill": "firearms",

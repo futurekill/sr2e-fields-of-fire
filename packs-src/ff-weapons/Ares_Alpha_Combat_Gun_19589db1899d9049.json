@@ -2,7 +2,7 @@
   "_id": "19589db1899d9049",
   "name": "Ares Alpha Combat Gun",
   "type": "weapon",
-  "img": "icons/svg/explosion.svg",
+  "img": "modules/sr2e-fields-of-fire/assets/item_icons/weapon/ares-alpha-combat-gun.webp",
   "system": {
     "weaponType": "firearm",
     "skill": "firearms",

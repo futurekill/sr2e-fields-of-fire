@@ -2,7 +2,7 @@
   "_id": "62fad2e734b25aa7",
   "name": "Wasp Performance Upgrade",
   "type": "vehicle_mod",
-  "img": "icons/svg/upgrade.svg",
+  "img": "modules/sr2e-fields-of-fire/assets/item_icons/vehicle_mod/wasp-performance-upgrade.webp",
   "system": {
     "modType": "upgrade",
     "rating": 0,

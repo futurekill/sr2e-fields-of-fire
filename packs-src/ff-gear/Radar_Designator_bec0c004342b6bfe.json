@@ -2,7 +2,7 @@
   "_id": "bec0c004342b6bfe",
   "name": "Radar Designator",
   "type": "gear",
-  "img": "icons/svg/item-bag.svg",
+  "img": "modules/sr2e-fields-of-fire/assets/item_icons/gear/radar-designator.webp",
   "system": {
     "category": "targeting",
     "rating": 0,

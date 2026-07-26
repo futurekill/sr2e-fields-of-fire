@@ -2,7 +2,7 @@
   "_id": "d6bef98a156df2f6",
   "name": "Ballista Multi-Role Missile Launcher",
   "type": "weapon",
-  "img": "icons/svg/explosion.svg",
+  "img": "modules/sr2e-fields-of-fire/assets/item_icons/weapon/ballista-multi-role-missile-launcher.webp",
   "system": {
     "weaponType": "heavy",
     "skill": "launch_weapons",

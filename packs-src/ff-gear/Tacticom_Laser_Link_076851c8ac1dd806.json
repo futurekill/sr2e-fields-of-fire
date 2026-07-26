@@ -2,7 +2,7 @@
   "_id": "076851c8ac1dd806",
   "name": "Tacticom Laser Link",
   "type": "gear",
-  "img": "icons/svg/item-bag.svg",
+  "img": "modules/sr2e-fields-of-fire/assets/item_icons/gear/tacticom-laser-link.webp",
   "system": {
     "category": "comms",
     "rating": 0,

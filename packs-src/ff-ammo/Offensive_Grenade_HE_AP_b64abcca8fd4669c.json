@@ -2,7 +2,7 @@
   "_id": "b64abcca8fd4669c",
   "name": "Offensive Grenade (HE/AP)",
   "type": "ammo",
-  "img": "icons/svg/target.svg",
+  "img": "modules/sr2e-fields-of-fire/assets/item_icons/ammo/offensive-grenade-he-ap.webp",
   "system": {
     "ammoType": "grenade",
     "quantity": 1,

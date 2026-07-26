@@ -2,7 +2,7 @@
   "_id": "23fd23549296f0da",
   "name": "M-12 Man-Portable Mortar",
   "type": "weapon",
-  "img": "icons/svg/explosion.svg",
+  "img": "modules/sr2e-fields-of-fire/assets/item_icons/weapon/m-12-man-portable-mortar.webp",
   "system": {
     "weaponType": "heavy",
     "skill": "launch_weapons",

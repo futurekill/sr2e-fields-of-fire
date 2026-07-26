@@ -2,7 +2,7 @@
   "_id": "4d4a7b11bbc4754a",
   "name": "Ballista Mk I Rocket",
   "type": "ammo",
-  "img": "icons/svg/target.svg",
+  "img": "modules/sr2e-fields-of-fire/assets/item_icons/ammo/ballista-mk-i-rocket.webp",
   "system": {
     "ammoType": "missile",
     "quantity": 1,

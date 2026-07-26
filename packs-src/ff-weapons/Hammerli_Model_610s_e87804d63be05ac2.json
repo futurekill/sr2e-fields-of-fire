@@ -2,7 +2,7 @@
   "_id": "e87804d63be05ac2",
   "name": "Hammerli Model 610s",
   "type": "weapon",
-  "img": "icons/svg/explosion.svg",
+  "img": "modules/sr2e-fields-of-fire/assets/item_icons/weapon/hammerli-model-610s.webp",
   "system": {
     "weaponType": "firearm",
     "skill": "firearms",

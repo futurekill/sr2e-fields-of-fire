@@ -2,7 +2,7 @@
   "_id": "06b39b3dbd2f9ff8",
   "name": "Tacticom Satellite Uplink",
   "type": "gear",
-  "img": "icons/svg/item-bag.svg",
+  "img": "modules/sr2e-fields-of-fire/assets/item_icons/gear/tacticom-satellite-uplink.webp",
   "system": {
     "category": "comms",
     "rating": 0,

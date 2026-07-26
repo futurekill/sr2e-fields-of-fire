@@ -2,7 +2,7 @@
   "_id": "d34ba11dc23595dd",
   "name": "Camo-Spec Full Suit",
   "type": "armor",
-  "img": "icons/svg/shield.svg",
+  "img": "modules/sr2e-fields-of-fire/assets/item_icons/armor/camo-spec-full-suit.webp",
   "system": {
     "ballistic": 3,
     "impact": 1,

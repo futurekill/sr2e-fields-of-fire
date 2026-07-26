@@ -2,7 +2,7 @@
   "_id": "116a8d96f07341de",
   "name": "Barret Model 121 Heavy Sniper Rifle",
   "type": "weapon",
-  "img": "icons/svg/explosion.svg",
+  "img": "modules/sr2e-fields-of-fire/assets/item_icons/weapon/barret-model-121-heavy-sniper-rifle.webp",
   "system": {
     "weaponType": "firearm",
     "skill": "firearms",

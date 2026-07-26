@@ -2,7 +2,7 @@
   "_id": "91ab541731aebf12",
   "name": "Smartlink Level II (Cybernetic)",
   "type": "gear",
-  "img": "icons/svg/item-bag.svg",
+  "img": "modules/sr2e-fields-of-fire/assets/item_icons/gear/smartlink-level-ii-cybernetic.webp",
   "system": {
     "category": "cyberware",
     "rating": 0,

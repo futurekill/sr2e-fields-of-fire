@@ -2,7 +2,7 @@
   "_id": "4e5abaa36f83b6c3",
   "name": "ArmTech Mini-6 Grenade Launcher",
   "type": "weapon",
-  "img": "icons/svg/explosion.svg",
+  "img": "modules/sr2e-fields-of-fire/assets/item_icons/weapon/armtech-mini-6-grenade-launcher.webp",
   "system": {
     "weaponType": "heavy",
     "skill": "launch_weapons",

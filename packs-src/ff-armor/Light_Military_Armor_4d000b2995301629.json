@@ -2,7 +2,7 @@
   "_id": "4d000b2995301629",
   "name": "Light Military Armor",
   "type": "armor",
-  "img": "icons/svg/shield.svg",
+  "img": "modules/sr2e-fields-of-fire/assets/item_icons/armor/light-military-armor.webp",
   "system": {
     "ballistic": 10,
     "impact": 7,

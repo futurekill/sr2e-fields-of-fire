@@ -2,7 +2,7 @@
   "_id": "1bce517d3b03cab2",
   "name": "IPE Defensive Grenade (HE/AP)",
   "type": "ammo",
-  "img": "icons/svg/target.svg",
+  "img": "modules/sr2e-fields-of-fire/assets/item_icons/ammo/ipe-defensive-grenade-he-ap.webp",
   "system": {
     "ammoType": "grenade",
     "quantity": 1,

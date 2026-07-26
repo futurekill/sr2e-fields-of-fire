@@ -2,7 +2,7 @@
   "_id": "2c4f444943a05bec",
   "name": "Ballista Mk III Missile",
   "type": "ammo",
-  "img": "icons/svg/target.svg",
+  "img": "modules/sr2e-fields-of-fire/assets/item_icons/ammo/ballista-mk-iii-missile.webp",
   "system": {
     "ammoType": "missile",
     "quantity": 1,

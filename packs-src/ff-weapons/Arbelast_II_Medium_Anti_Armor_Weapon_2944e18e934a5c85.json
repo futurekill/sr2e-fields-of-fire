@@ -2,7 +2,7 @@
   "_id": "2944e18e934a5c85",
   "name": "Arbelast II Medium Anti-Armor Weapon",
   "type": "weapon",
-  "img": "icons/svg/explosion.svg",
+  "img": "modules/sr2e-fields-of-fire/assets/item_icons/weapon/arbelast-ii-medium-anti-armor-weapon.webp",
   "system": {
     "weaponType": "heavy",
     "skill": "launch_weapons",

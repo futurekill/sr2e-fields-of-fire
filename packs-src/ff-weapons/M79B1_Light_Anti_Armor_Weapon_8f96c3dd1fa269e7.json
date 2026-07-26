@@ -2,7 +2,7 @@
   "_id": "8f96c3dd1fa269e7",
   "name": "M79B1 Light Anti-Armor Weapon",
   "type": "weapon",
-  "img": "icons/svg/explosion.svg",
+  "img": "modules/sr2e-fields-of-fire/assets/item_icons/weapon/m79b1-light-anti-armor-weapon.webp",
   "system": {
     "weaponType": "heavy",
     "skill": "launch_weapons",

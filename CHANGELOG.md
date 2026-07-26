@@ -1,5 +1,16 @@
 # Changelog
 
+## Unreleased
+
+### Added
+- **Art for every item in the module.** All 89 documents were sharing Foundry's
+  stock icons; each now has its own artwork. The 81 items (weapons, gear, ammo,
+  armor, vehicle mods) get 256×256 icons, and the 8 vehicles and drones get
+  1024×1024 **top-down tokens with transparent backgrounds**, so a Steel Lynx or
+  Striker reads properly on a battle map instead of as a picture on a square.
+  Vehicle tokens keep rotation unlocked, and the art is drawn nose-up so they
+  swing to face the way they're driving.
+
 ## 0.1.1
 
 Packaging only — no content change. Cut the first published GitHub release with an

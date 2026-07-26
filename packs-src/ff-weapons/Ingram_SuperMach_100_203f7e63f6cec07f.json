@@ -2,7 +2,7 @@
   "_id": "203f7e63f6cec07f",
   "name": "Ingram SuperMach 100",
   "type": "weapon",
-  "img": "icons/svg/explosion.svg",
+  "img": "modules/sr2e-fields-of-fire/assets/item_icons/weapon/ingram-supermach-100.webp",
   "system": {
     "weaponType": "firearm",
     "skill": "firearms",

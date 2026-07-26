@@ -2,7 +2,7 @@
   "_id": "8f599679df2f84cc",
   "name": "Ingram Warrior-10",
   "type": "weapon",
-  "img": "icons/svg/explosion.svg",
+  "img": "modules/sr2e-fields-of-fire/assets/item_icons/weapon/ingram-warrior-10.webp",
   "system": {
     "weaponType": "firearm",
     "skill": "firearms",

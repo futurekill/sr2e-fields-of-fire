@@ -2,7 +2,7 @@
   "_id": "ebf3c695325eef8a",
   "name": "Great Dragon ATGM",
   "type": "weapon",
-  "img": "icons/svg/explosion.svg",
+  "img": "modules/sr2e-fields-of-fire/assets/item_icons/weapon/great-dragon-atgm.webp",
   "system": {
     "weaponType": "heavy",
     "skill": "launch_weapons",

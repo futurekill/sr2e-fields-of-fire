@@ -2,7 +2,7 @@
   "_id": "6fe097a286156c23",
   "name": "Heavy Military Helmet",
   "type": "armor",
-  "img": "icons/svg/shield.svg",
+  "img": "modules/sr2e-fields-of-fire/assets/item_icons/armor/heavy-military-helmet.webp",
   "system": {
     "ballistic": 2,
     "impact": 3,

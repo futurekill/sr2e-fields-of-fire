@@ -2,7 +2,7 @@
   "_id": "1d19913423ba3256",
   "name": "Large Vehicle Smoke Generator",
   "type": "vehicle_mod",
-  "img": "icons/svg/upgrade.svg",
+  "img": "modules/sr2e-fields-of-fire/assets/item_icons/vehicle_mod/large-vehicle-smoke-generator.webp",
   "system": {
     "modType": "smoke",
     "rating": 0,
