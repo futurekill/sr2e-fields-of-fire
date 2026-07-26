@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+## 0.2.0 — 2026-07-26
+
 ### Added
 - **Art for every item in the module.** All 89 documents were sharing Foundry's
   stock icons; each now has its own artwork. The 81 items (weapons, gear, ammo,
