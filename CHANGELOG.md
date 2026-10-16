@@ -2,6 +2,14 @@
 
 ## Unreleased
 
+### Fixed — two weapon stats didn't match the book
+Every weapon was checked against its catalog page and the Weapon Range Table (p.87).
+- **Barret Model 121 Heavy Sniper Rifle:** Street Index is **5**, not 4 (p.35).
+- **Cougar Fine Blade (Long):** Concealability is **5**, not 6 (p.55).
+
+Copies already in a world are fixed when it loads with SR2E 0.104.3 or later (unless
+you changed that stat).
+
 ## 0.2.0 — 2026-07-26
 
 ### Added

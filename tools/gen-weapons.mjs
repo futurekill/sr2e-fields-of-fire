@@ -84,7 +84,7 @@ const WEAPONS = [
     notes: "Premium assault rifle with integral full-function Smartlink Level II, an integral mini-grenade launcher (8 mini-grenades, fired SS), and chamber-based recoil (+2 RR). Under-barrel + top accessories, no barrel-mounted. Fields of Fire p.33." },
   { name: "Ares HV Assault Rifle", conceal: 2, ammo: 50, mode: "SA/BF/FA", dmg: "6M", wt: 5.0, avail: "14/7 days", cost: 3200, index: 4, range: "assault", rc: 3, smart: true, legality: "Forbidden",
     notes: "High-velocity assault rifle (HVAR) with minigun firing rates; integral Smartlink II and +3 Recoil Reduction. Fires light-pistol rounds; six-round bursts do 12D, max autofire 15. Under-barrel + top accessories. Fields of Fire p.34." },
-  { name: "Barret Model 121 Heavy Sniper Rifle", conceal: 99, ammo: 14, mode: "SA", dmg: "14D", wt: 10, avail: "14/30 days", cost: 4800, index: 4, range: "sniper", rc: 2, smart: true, legality: "Forbidden",
+  { name: "Barret Model 121 Heavy Sniper Rifle", conceal: 99, ammo: 14, mode: "SA", dmg: "14D", wt: 10, avail: "14/30 days", cost: 4800, index: 5, range: "sniper", rc: 2, smart: true, legality: "Forbidden",
     notes: "Heavy anti-materiel sniper rifle with an integral silencer (+2 RR) and Smartlink I (+2). Fires custom armor-piercing rounds (treat as APDS; 200¥ per box of 10, separate acquisition test). Fields of Fire p.35." },
   { name: "Remington 990 Shotgun", conceal: 2, ammo: 8, mode: "SA", dmg: "8S", wt: 4, avail: "3/48 hrs", cost: 650, index: 2, range: "shotgun", ammoType: "magazine", legality: "Restricted",
     notes: "Common, affordable pump/semi shotgun firing slug or shot (8S; see the SR2 shotgun rules). Sawed-off version: Concealability 4 and all Damage Codes −2. Fields of Fire p.36." },
@@ -119,7 +119,7 @@ const WEAPONS = [
   // --- Melee (book p.55). Cougar Fine Blade — molecular-bonded combat knives. ---
   { name: "Cougar Fine Blade (Short)", kind: "melee", conceal: 8, reach: 0, dmg: "(Str)M", wt: 0.5, avail: "5/72 hrs", cost: 800, index: 3, range: "none", legality: "Legal",
     notes: "Short-blade version of the Cougar Fineblade combat knife: double-edged, state-of-the-art molecular bonding/edging, wire-cutting notch, hardened grip and pommel. No special properties. Fields of Fire p.55." },
-  { name: "Cougar Fine Blade (Long)", kind: "melee", conceal: 6, reach: 0, dmg: "(Str+1)M", wt: 0.75, avail: "8/72 hrs", cost: 1500, index: 3, range: "none", legality: "Legal",
+  { name: "Cougar Fine Blade (Long)", kind: "melee", conceal: 5, reach: 0, dmg: "(Str+1)M", wt: 0.75, avail: "8/72 hrs", cost: 1500, index: 3, range: "none", legality: "Legal",
     notes: "Long-blade version of the Cougar Fineblade combat knife: double-edged, molecular-bonded edge, wire-cutting notch, hardened grip and pommel. No special properties. Fields of Fire p.55." }
 ];
 

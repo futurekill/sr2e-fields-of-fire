@@ -8,7 +8,7 @@
     "skill": "armed_combat",
     "damageCode": "(Str+1)M",
     "damageType": "physical",
-    "concealability": 6,
+    "concealability": 5,
     "reach": 0,
     "firingModes": {
       "ss": true,
