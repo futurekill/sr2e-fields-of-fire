@@ -1,6 +1,6 @@
 # Changelog
 
-## Unreleased
+## 0.2.1 — 2026-10-16
 
 ### Fixed — two weapon stats didn't match the book
 Every weapon was checked against its catalog page and the Weapon Range Table (p.87).
