@@ -2,7 +2,7 @@
 // Wasp/Yellowjacket performance upgrades (book p.70), vehicle smoke generators
 // (p.71), and ablative vehicle armor (p.72), verified against the page renders.
 // Re-run, then `npm run build-packs ff-vehicle-mods`.
-import { writeFileSync, mkdirSync } from "node:fs";
+import { writeFileSync, mkdirSync, readFileSync, existsSync } from "node:fs";
 import { createHash } from "node:crypto";
 
 const DIR = "packs-src/ff-vehicle-mods";
@@ -12,10 +12,12 @@ const idFor = (s) => createHash("sha1").update("ff-vehicle-mod:" + s).digest("he
 function mod(m) {
   const _id = idFor(m.name);
   return {
-    _id, name: m.name, type: "vehicle_mod", img: m.img ?? "icons/svg/upgrade.svg",
+    _id, name: m.name, type: "vehicle_mod", img: m.img ?? m.keepImg ?? "icons/svg/upgrade.svg",
     system: {
       modType: m.modType ?? "general", rating: m.rating ?? 0,
-      cost: m.cost ?? 0, installed: false, notes: m.notes ?? ""
+      cost: m.cost ?? 0, installed: false, notes: m.notes ?? "",
+      // Catalog products bought in ¥ and installed on a built vehicle: never priced in Design Points (Rigger 2 p.118).
+      designable: false, effects: m.effects ?? {}
     },
     effects: [], flags: {}, folder: null, sort: 0,
     _stats: { coreVersion: "13.351", systemId: "sr2e", systemVersion: "0.0.1", createdTime: 1782000000000, modifiedTime: 1782000000000, lastModifiedBy: null, compendiumSource: null, duplicateSource: null, exportSource: null },
@@ -42,18 +44,21 @@ const MODS = [
   // Ablative vehicle armor (book p.72). Adds 2×level to effective Armor (max =
   // Body); when hit by Power > 3×level, the Armor bonus drops by 1. 6 hrs to
   // install, can't be concealed, not Hardened, not usable on aircraft.
-  { name: "Ablative Vehicle Armor (Level 1)", modType: "armor", rating: 1, cost: 700,
+  { name: "Ablative Vehicle Armor (Level 1)", modType: "armor", rating: 1, effects: { armor: "min(2 x R, B)" }, cost: 700,
     notes: "EAW modular ablative armor, Level 1: adds +2 to effective Armor Rating (max = Body). When hit by an attack with Power > 3, reduce the Armor bonus by 1. 6 hrs to install; can't be concealed; not Hardened; not usable on aircraft. Availability 8/14 days, Street Index 2. Fields of Fire p.72." },
-  { name: "Ablative Vehicle Armor (Level 2)", modType: "armor", rating: 2, cost: 1600,
+  { name: "Ablative Vehicle Armor (Level 2)", modType: "armor", rating: 2, effects: { armor: "min(2 x R, B)" }, cost: 1600,
     notes: "EAW modular ablative armor, Level 2: adds +4 to effective Armor Rating (max = Body). When hit by an attack with Power > 6, reduce the Armor bonus by 1. 6 hrs to install; can't be concealed; not Hardened; not usable on aircraft. Availability 12/14 days, Street Index 2. Fields of Fire p.72." },
-  { name: "Ablative Vehicle Armor (Level 3)", modType: "armor", rating: 3, cost: 2500,
+  { name: "Ablative Vehicle Armor (Level 3)", modType: "armor", rating: 3, effects: { armor: "min(2 x R, B)" }, cost: 2500,
     notes: "EAW modular ablative armor, Level 3: adds +6 to effective Armor Rating (max = Body). When hit by an attack with Power > 9, reduce the Armor bonus by 1. 6 hrs to install; can't be concealed; not Hardened; not usable on aircraft. Availability 14/21 days, Street Index 2. Fields of Fire p.72." }
 ];
 
 let n = 0;
 for (const m of MODS) {
   const safe = m.name.replace(/[^A-Za-z0-9]+/g, "_").replace(/^_|_$/g, "");
-  writeFileSync(`${DIR}/${safe}_${idFor(m.name)}.json`, JSON.stringify(mod(m), null, 2) + "\n");
+  const file = `${DIR}/${safe}_${idFor(m.name)}.json`;
+  // Keep the art already wired into the pack (re-running must never un-wire portraits).
+  const keepImg = existsSync(file) ? JSON.parse(readFileSync(file, "utf8")).img : undefined;
+  writeFileSync(file, JSON.stringify(mod({ ...m, keepImg }), null, 2) + "\n");
   n++;
 }
 console.log(`wrote ${n} vehicle mods`);

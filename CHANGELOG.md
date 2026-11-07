@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.2.2 — 2026-11-07
+
+### Fixed
+- **Ablative vehicle armor adds 2 × its level to Armor** (at most the vehicle's Body, p.72); the sheet used to add
+  just the level.
+- These products are bought in ¥ and fitted to a built vehicle, so the SR2E Vehicle Workshop (system 0.143.0) no
+  longer offers them as free design options.
+
 ## 0.2.1 — 2026-10-16
 
 ### Fixed — two weapon stats didn't match the book

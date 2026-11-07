@@ -8,7 +8,11 @@
     "rating": 2,
     "cost": 1600,
     "installed": false,
-    "notes": "EAW modular ablative armor, Level 2: adds +4 to effective Armor Rating (max = Body). When hit by an attack with Power > 6, reduce the Armor bonus by 1. 6 hrs to install; can't be concealed; not Hardened; not usable on aircraft. Availability 12/14 days, Street Index 2. Fields of Fire p.72."
+    "notes": "EAW modular ablative armor, Level 2: adds +4 to effective Armor Rating (max = Body). When hit by an attack with Power > 6, reduce the Armor bonus by 1. 6 hrs to install; can't be concealed; not Hardened; not usable on aircraft. Availability 12/14 days, Street Index 2. Fields of Fire p.72.",
+    "designable": false,
+    "effects": {
+      "armor": "min(2 x R, B)"
+    }
   },
   "effects": [],
   "flags": {},

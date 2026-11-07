@@ -8,7 +8,9 @@
     "rating": 0,
     "cost": 110000,
     "installed": false,
-    "notes": "Northrup performance upgrade for the Yellowjacket drone: Handling −1, Signature +2, and sets Body/Armor to 3/9. Fleet-upgrade discounts available. Base Yellowjacket stats: Rigger Black Book p.70-71 / Street Samurai Catalog p.74. Fields of Fire p.70."
+    "notes": "Northrup performance upgrade for the Yellowjacket drone: Handling −1, Signature +2, and sets Body/Armor to 3/9. Fleet-upgrade discounts available. Base Yellowjacket stats: Rigger Black Book p.70-71 / Street Samurai Catalog p.74. Fields of Fire p.70.",
+    "designable": false,
+    "effects": {}
   },
   "effects": [],
   "flags": {},
