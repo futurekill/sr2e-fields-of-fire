@@ -1,3 +1,7 @@
+// ⚠ DO NOT RE-RUN: packs-src/ff-vehicles is the source of truth since the art pass (2026-07-25: this generator
+// writes a placeholder img) and the vehicle stats audit (2026-11-11: Titan B/A 5/12, Striker APilot 2, cruising
+// speed, off-road handling, drone Store, APilot -> autonav/pilot; system docs/VEHICLE-AUDIT.md). The table below
+// is the original transcription, kept for reference only.
 // Generate Fields of Fire vehicles & drones into packs-src/ff-vehicles (Actor
 // type "vehicle"). Stat blocks from the Field Pack (book p.62-70), verified
 // against the page renders. FF stat-block convention: "B/A" = Body/Armor,

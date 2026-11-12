@@ -7,14 +7,14 @@
     "vehicleType": "drone",
     "skill": "",
     "handling": 5,
-    "speed": 90,
+    "speed": 30,
     "acceleration": 0,
     "body": 1,
     "armor": 3,
     "signature": 11,
     "pilot": 3,
     "sensor": 1,
-    "cargo": 4,
+    "cargo": 0,
     "load": 0,
     "seating": "0",
     "cost": 45000,
@@ -24,7 +24,8 @@
       "value": 0,
       "max": 10
     },
-    "notes": "Long-endurance recon drone — the Condor LDSD-23 with long-duration batteries in place of solar cells. Handling 5, Speed 30/90, VSTOL, Economy 5 km/PF, Power 25 PF (duration limited by power), Standard (I) sensor package, set-up 5 min. Remote-control gear; 3 CF free for sensors/ECM-ECCM/control gear. Fields of Fire p.67. (Rigger 2 lists a Condor II LDSD-41 with a slightly different stat block.)"
+    "notes": "Long-endurance recon drone — the Condor LDSD-23 with long-duration batteries in place of solar cells. Handling 5, Speed 30/90, VSTOL, Economy 5 km/PF, Power 25 PF (duration limited by power), Standard (I) sensor package, set-up 5 min. Remote-control gear; 3 CF free for sensors/ECM-ECCM/control gear. Fields of Fire p.67. (Rigger 2 lists a Condor II LDSD-41 with a slightly different stat block.)<p><em>Fields of Fire p.67: Speed 30/90 m/CT (cruising/maximum; Speed holds the cruising speed). Stowing it takes 4 CF of another vehicle's cargo space.</em></p>",
+    "handlingOffRoad": null
   },
   "items": [],
   "effects": [],

@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.2.3 — 2026-11-11
+
+### Fixed
+- **Vehicle stats audit** (system docs/VEHICLE-AUDIT.md): Titan Transport Body 5 / Armor 12; Striker autopilot 2;
+  Speed is the cruising speed (it held the maximum); off-road Handling on the ground vehicles; drones' cargo no longer
+  holds their Store size; autopilot in Autonav on crewed vehicles.
+
 ## 0.2.2 — 2026-11-07
 
 ### Fixed

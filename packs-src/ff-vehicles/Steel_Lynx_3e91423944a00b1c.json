@@ -7,14 +7,14 @@
     "vehicleType": "drone",
     "skill": "",
     "handling": 4,
-    "speed": 80,
+    "speed": 40,
     "acceleration": 0,
     "body": 4,
     "armor": 12,
     "signature": 5,
     "pilot": 2,
     "sensor": 1,
-    "cargo": 20,
+    "cargo": 0,
     "load": 0,
     "seating": "0",
     "cost": 15000,
@@ -24,7 +24,8 @@
       "value": 0,
       "max": 10
     },
-    "notes": "Tracked ground combat drone. Handling 4/6, Speed 40/80, Economy 3 km/PF, Power 30 PF (duration limited by power), Standard (I) sensors, set-up 3 min. Remote-control gear; 8 CF free for sensors/ECM-ECCM/control gear/weapons — common fit is a micro-turret mounting an LMG, HVAR, or flechette cannon. Replaceable power pack 3,000¥. Fields of Fire p.68."
+    "notes": "Tracked ground combat drone. Handling 4/6, Speed 40/80, Economy 3 km/PF, Power 30 PF (duration limited by power), Standard (I) sensors, set-up 3 min. Remote-control gear; 8 CF free for sensors/ECM-ECCM/control gear/weapons — common fit is a micro-turret mounting an LMG, HVAR, or flechette cannon. Replaceable power pack 3,000¥. Fields of Fire p.68.<p><em>Fields of Fire p.68: Speed 40/80 m/CT (cruising/maximum; Speed holds the cruising speed). Handling printed 4/6. Stowing it takes 20 CF of another vehicle's cargo space.</em></p>",
+    "handlingOffRoad": null
   },
   "items": [],
   "effects": [],

@@ -7,14 +7,14 @@
     "vehicleType": "drone",
     "skill": "",
     "handling": 3,
-    "speed": 30,
+    "speed": 10,
     "acceleration": 0,
     "body": 1,
     "armor": 3,
     "signature": 8,
     "pilot": 3,
     "sensor": 1,
-    "cargo": 1,
+    "cargo": 0,
     "load": 0,
     "seating": "0",
     "cost": 154800,
@@ -24,7 +24,8 @@
       "value": 0,
       "max": 10
     },
-    "notes": "Small security/sentry drone — deploy several to cover acres. Handling 3/5, Speed 10/30, Economy 10 km/PF, Power 10 PF (duration limited by power), Security (I) sensor package, set-up 3 min. Remote-control gear + white-light searchlight; 3 CF free for sensors/ECM-ECCM/control gear; laser designator not included. Fields of Fire p.69."
+    "notes": "Small security/sentry drone — deploy several to cover acres. Handling 3/5, Speed 10/30, Economy 10 km/PF, Power 10 PF (duration limited by power), Security (I) sensor package, set-up 3 min. Remote-control gear + white-light searchlight; 3 CF free for sensors/ECM-ECCM/control gear; laser designator not included. Fields of Fire p.69.<p><em>Fields of Fire p.69: Speed 10/30 m/CT (cruising/maximum; Speed holds the cruising speed). Handling printed 3/5. Stowing it takes 1 CF of another vehicle's cargo space.</em></p>",
+    "handlingOffRoad": null
   },
   "items": [],
   "effects": [],
