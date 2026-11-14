@@ -21,7 +21,11 @@
     "notes": "Microwave-pulse target designator (range ~8,000 km). Street Index 2. Fields of Fire p.60."
   },
   "effects": [],
-  "flags": {},
+  "flags": {
+    "sr2e": {
+      "rule": "designator-microwave"
+    }
+  },
   "folder": null,
   "sort": 0,
   "_stats": {

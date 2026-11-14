@@ -21,7 +21,11 @@
     "notes": "Radar target designator (range 10,000+ km) — most accurate/reliable. Street Index 2. Fields of Fire p.60."
   },
   "effects": [],
-  "flags": {},
+  "flags": {
+    "sr2e": {
+      "rule": "designator-radar"
+    }
+  },
   "folder": null,
   "sort": 0,
   "_stats": {

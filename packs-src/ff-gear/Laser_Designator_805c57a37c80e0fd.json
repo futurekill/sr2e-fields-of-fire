@@ -21,7 +21,11 @@
     "notes": "Laser target designator (range 5,000 m) — marks a target for laser-guided munitions (e.g. Ballista Mk II, Anti-Vehicle mortar). Rules p.85. Street Index 2. Fields of Fire p.60."
   },
   "effects": [],
-  "flags": {},
+  "flags": {
+    "sr2e": {
+      "rule": "designator-laser"
+    }
+  },
   "folder": null,
   "sort": 0,
   "_stats": {
