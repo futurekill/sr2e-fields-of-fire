@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.3.0 — 2026-11-15
+
+### Added
+- The Ballista Mk I rocket and Mk II/Mk III missiles carry their guidance data (kind, Intelligence) for Rigger 2
+  gunnery, and the laser, microwave and radar designators their identity for indirect fire (sr2e 0.154.0, Part 4b).
+
 ## 0.2.3 — 2026-11-11
 
 ### Fixed
