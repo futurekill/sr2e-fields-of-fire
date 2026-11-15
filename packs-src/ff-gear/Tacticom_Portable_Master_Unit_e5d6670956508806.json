@@ -18,7 +18,11 @@
     "combatTnMod": 0,
     "accessoryRecoilComp": 0,
     "requiresSmartgun": false,
-    "notes": "Portable version of the Tacticom master unit (Rating 14). Street Index 3. Fields of Fire p.58."
+    "notes": "Portable version of the Tacticom master unit (Rating 14). Street Index 3. Fields of Fire p.58.",
+    "citation": {
+      "book": "ff",
+      "page": "58"
+    }
   },
   "effects": [],
   "flags": {},

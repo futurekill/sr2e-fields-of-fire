@@ -10,7 +10,11 @@
     "installed": false,
     "notes": "Externally-mounted vehicle smoke generator, 12 charges. Triggered from inside; each charge covers a given area (smoke rules p.85). Thermal IR-blocking smoke available at +20% cost. Fields of Fire p.71.",
     "designable": false,
-    "effects": {}
+    "effects": {},
+    "citation": {
+      "book": "ff",
+      "page": "71"
+    }
   },
   "effects": [],
   "flags": {},

@@ -37,7 +37,11 @@
     "streetIndex": "4",
     "equipped": false,
     "accessories": [],
-    "notes": "Super-machinegun version of the man-portable LMG; works as a personal or mounted weapon, belt-fed, with integral Smartlink II and +3 Recoil Reduction. Fires light-pistol rounds; six-round bursts do 15D, max autofire 15. Under-barrel + top accessories. Fields of Fire p.38."
+    "notes": "Super-machinegun version of the man-portable LMG; works as a personal or mounted weapon, belt-fed, with integral Smartlink II and +3 Recoil Reduction. Fires light-pistol rounds; six-round bursts do 15D, max autofire 15. Under-barrel + top accessories. Fields of Fire p.38.",
+    "citation": {
+      "book": "ff",
+      "page": "38"
+    }
   },
   "effects": [],
   "flags": {},

@@ -11,7 +11,11 @@
     "damageType": "",
     "armorCalc": "standard",
     "cost": 1200,
-    "notes": "Armor-piercing mortar round with a laser-tracking seeker — requires a laser-marked target (Target Designators, Rules p.85). Damage 16D, blast −1/4 meters. Availability 21 days, Street Index 4, weight 4.0. Fields of Fire p.45."
+    "notes": "Armor-piercing mortar round with a laser-tracking seeker — requires a laser-marked target (Target Designators, Rules p.85). Damage 16D, blast −1/4 meters. Availability 21 days, Street Index 4, weight 4.0. Fields of Fire p.45.",
+    "citation": {
+      "book": "ff",
+      "page": "45"
+    }
   },
   "effects": [],
   "flags": {},

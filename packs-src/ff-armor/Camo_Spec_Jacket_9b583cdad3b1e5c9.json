@@ -13,7 +13,11 @@
     "legality": "Legal",
     "equipped": false,
     "isLayered": false,
-    "notes": "Patterson Fabrics Camo-Spec armored jacket: light armor plus a camouflage pattern (effects on Perception Tests, Rules p.77). Reversible day/night; multiple patterns. Street Index 1. Fields of Fire p.52."
+    "notes": "Patterson Fabrics Camo-Spec armored jacket: light armor plus a camouflage pattern (effects on Perception Tests, Rules p.77). Reversible day/night; multiple patterns. Street Index 1. Fields of Fire p.52.",
+    "citation": {
+      "book": "ff",
+      "page": "52"
+    }
   },
   "effects": [],
   "flags": {},

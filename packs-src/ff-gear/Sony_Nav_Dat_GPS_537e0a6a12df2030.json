@@ -18,7 +18,11 @@
     "combatTnMod": 0,
     "accessoryRecoilComp": 0,
     "requiresSmartgun": false,
-    "notes": "Sony Nav-Dat GPS: cross-references known navigational satellites, locating you within 2 m. Datasoft-jack maps, multiple coordinate systems; tracks the moon and sun; BattleTac-compatible. Street Index 1. Fields of Fire p.61."
+    "notes": "Sony Nav-Dat GPS: cross-references known navigational satellites, locating you within 2 m. Datasoft-jack maps, multiple coordinate systems; tracks the moon and sun; BattleTac-compatible. Street Index 1. Fields of Fire p.61.",
+    "citation": {
+      "book": "ff",
+      "page": "61"
+    }
   },
   "effects": [],
   "flags": {},

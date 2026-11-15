@@ -37,7 +37,11 @@
     "streetIndex": 5,
     "equipped": false,
     "accessories": [],
-    "notes": "Heavy anti-materiel sniper rifle with an integral silencer (+2 RR) and Smartlink I (+2). Fires custom armor-piercing rounds (treat as APDS; 200¥ per box of 10, separate acquisition test). Fields of Fire p.35."
+    "notes": "Heavy anti-materiel sniper rifle with an integral silencer (+2 RR) and Smartlink I (+2). Fires custom armor-piercing rounds (treat as APDS; 200¥ per box of 10, separate acquisition test). Fields of Fire p.35.",
+    "citation": {
+      "book": "ff",
+      "page": "35"
+    }
   },
   "effects": [],
   "flags": {},

@@ -37,7 +37,11 @@
     "streetIndex": "2.5",
     "equipped": false,
     "accessories": [],
-    "notes": "High-powered heavy pistol with integral smartgun link, micro-gyro recoil (+1 RR) and burst fire (3-round burst as a Complex Action). No under-barrel accessories. Fields of Fire p.28."
+    "notes": "High-powered heavy pistol with integral smartgun link, micro-gyro recoil (+1 RR) and burst fire (3-round burst as a Complex Action). No under-barrel accessories. Fields of Fire p.28.",
+    "citation": {
+      "book": "ff",
+      "page": "28"
+    }
   },
   "effects": [],
   "flags": {},

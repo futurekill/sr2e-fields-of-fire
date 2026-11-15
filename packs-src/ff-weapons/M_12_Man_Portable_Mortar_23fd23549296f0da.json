@@ -37,7 +37,11 @@
     "streetIndex": "2",
     "equipped": false,
     "accessories": [],
-    "notes": "Bipod-braced man-portable mortar firing dumb rounds, or laser-tracking 'smart' rounds with a spotter's data. Setup 18 turns (3 min); breakdown 18 turns. Up to 2 rounds per Combat Turn. Damage depends on the loaded round (see ff-ammo). Fields of Fire p.44."
+    "notes": "Bipod-braced man-portable mortar firing dumb rounds, or laser-tracking 'smart' rounds with a spotter's data. Setup 18 turns (3 min); breakdown 18 turns. Up to 2 rounds per Combat Turn. Damage depends on the loaded round (see ff-ammo). Fields of Fire p.44.",
+    "citation": {
+      "book": "ff",
+      "page": "44"
+    }
   },
   "effects": [],
   "flags": {},

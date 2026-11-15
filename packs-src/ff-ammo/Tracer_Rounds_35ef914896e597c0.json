@@ -11,7 +11,11 @@
     "damageType": "",
     "armorCalc": "standard",
     "cost": 75,
-    "notes": "Tracer rounds for full-auto weapons only; loaded every third round. Non-smartgun users take a −1 TN modifier beyond Short range per tracer fired (−1 after the first 3, −2 after 6, …). In burst damage, the tracer adds no Power but does raise the Damage Level. Concealability 8, Availability 3/24 hrs, Street Index 1, weight .5 (per box). Fields of Fire p.51."
+    "notes": "Tracer rounds for full-auto weapons only; loaded every third round. Non-smartgun users take a −1 TN modifier beyond Short range per tracer fired (−1 after the first 3, −2 after 6, …). In burst damage, the tracer adds no Power but does raise the Damage Level. Concealability 8, Availability 3/24 hrs, Street Index 1, weight .5 (per box). Fields of Fire p.51.",
+    "citation": {
+      "book": "ff",
+      "page": "51"
+    }
   },
   "effects": [],
   "flags": {},

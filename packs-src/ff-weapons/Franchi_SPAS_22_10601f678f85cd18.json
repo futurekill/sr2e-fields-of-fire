@@ -37,7 +37,11 @@
     "streetIndex": "2",
     "equipped": false,
     "accessories": [],
-    "notes": "Selective-fire combat shotgun (single-action or burst); custom folding stock (+1 RR when extended; −2 recoil modifier) and Smartlink II hardware. Top accessories. Fields of Fire p.37."
+    "notes": "Selective-fire combat shotgun (single-action or burst); custom folding stock (+1 RR when extended; −2 recoil modifier) and Smartlink II hardware. Top accessories. Fields of Fire p.37.",
+    "citation": {
+      "book": "ff",
+      "page": "37"
+    }
   },
   "effects": [],
   "flags": {},

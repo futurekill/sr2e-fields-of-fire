@@ -25,7 +25,11 @@
       "max": 10
     },
     "notes": "Medium-weight stealth infiltration glider: radar-absorbing mesh skin, low-noise electric turbofan, Effective VTOL. Cruise/max 15/60, Economy 1 PF/km, Power Elec/100, weight 200 kg, 400-kg load. Deploys from two bags; 5 min to assemble/disassemble; optional remote-operations package. Fields of Fire p.62.<p><em>Fields of Fire p.62: Speed 15/60 m/CT (cruising/maximum; Speed holds the cruising speed).</em></p>",
-    "handlingOffRoad": null
+    "handlingOffRoad": null,
+    "citation": {
+      "book": "ff",
+      "page": "62"
+    }
   },
   "items": [],
   "effects": [],

@@ -37,7 +37,11 @@
     "streetIndex": "3",
     "equipped": false,
     "accessories": [],
-    "notes": "Bull-pup multi-grenade launcher; 12-round clip of standard mini-grenades, accurate to 300m. Standard grenade rules (SRII p.96). Recoil modifier +2 (compensation only via gyro-mounts). Accepts targeting + sighting accessories. Damage per grenade (see ff-ammo). Fields of Fire p.47."
+    "notes": "Bull-pup multi-grenade launcher; 12-round clip of standard mini-grenades, accurate to 300m. Standard grenade rules (SRII p.96). Recoil modifier +2 (compensation only via gyro-mounts). Accepts targeting + sighting accessories. Damage per grenade (see ff-ammo). Fields of Fire p.47.",
+    "citation": {
+      "book": "ff",
+      "page": "47"
+    }
   },
   "effects": [],
   "flags": {},

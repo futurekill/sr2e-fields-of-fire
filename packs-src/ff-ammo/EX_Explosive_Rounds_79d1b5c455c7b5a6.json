@@ -11,7 +11,11 @@
     "damageType": "",
     "armorCalc": "standard",
     "cost": 100,
-    "notes": "Explosive firearm rounds: +2 to the weapon's Power, all other standard rules. Concealability 8, Availability 6/72 hrs, Street Index 5, weight .75 (per box). Fields of Fire p.51."
+    "notes": "Explosive firearm rounds: +2 to the weapon's Power, all other standard rules. Concealability 8, Availability 6/72 hrs, Street Index 5, weight .75 (per box). Fields of Fire p.51.",
+    "citation": {
+      "book": "ff",
+      "page": "51"
+    }
   },
   "effects": [],
   "flags": {},

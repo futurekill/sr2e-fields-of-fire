@@ -16,6 +16,10 @@
       "kind": "rocket",
       "intelligence": 0,
       "sensor": 0
+    },
+    "citation": {
+      "book": "ff",
+      "page": "43"
     }
   },
   "effects": [],

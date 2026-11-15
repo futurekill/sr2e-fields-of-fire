@@ -37,7 +37,11 @@
     "streetIndex": "3",
     "equipped": false,
     "accessories": [],
-    "notes": "Self-contained man-portable laser with detachable rapid-swap battery packs. Range via the FF Weapon Range Table (Sniper Rifle row); Power −2 per range band beyond Short. Ignores Ballistic Armor, halves Impact Armor (round down); −1 Damage vs vehicles; smoke −1 Power per 2m. Recoil modifiers don't apply. Fields of Fire p.49."
+    "notes": "Self-contained man-portable laser with detachable rapid-swap battery packs. Range via the FF Weapon Range Table (Sniper Rifle row); Power −2 per range band beyond Short. Ignores Ballistic Armor, halves Impact Armor (round down); −1 Damage vs vehicles; smoke −1 Power per 2m. Recoil modifiers don't apply. Fields of Fire p.49.",
+    "citation": {
+      "book": "ff",
+      "page": "49"
+    }
   },
   "effects": [],
   "flags": {},

@@ -18,7 +18,11 @@
     "combatTnMod": 0,
     "accessoryRecoilComp": 0,
     "requiresSmartgun": false,
-    "notes": "High-power laser target sight, range 1,500 m. Street Index 1. Fields of Fire p.60."
+    "notes": "High-power laser target sight, range 1,500 m. Street Index 1. Fields of Fire p.60.",
+    "citation": {
+      "book": "ff",
+      "page": "60"
+    }
   },
   "effects": [],
   "flags": {},

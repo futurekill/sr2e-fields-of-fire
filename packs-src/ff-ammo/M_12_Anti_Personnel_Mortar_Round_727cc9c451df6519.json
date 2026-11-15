@@ -11,7 +11,11 @@
     "damageType": "",
     "armorCalc": "standard",
     "cost": 250,
-    "notes": "Fragmentation mortar round; determine damage by the Flechette rules (SRII p.93). Damage 18D, blast −1/meter. Availability 18/14 days, Street Index 3, weight 4.0. Fields of Fire p.45."
+    "notes": "Fragmentation mortar round; determine damage by the Flechette rules (SRII p.93). Damage 18D, blast −1/meter. Availability 18/14 days, Street Index 3, weight 4.0. Fields of Fire p.45.",
+    "citation": {
+      "book": "ff",
+      "page": "45"
+    }
   },
   "effects": [],
   "flags": {},

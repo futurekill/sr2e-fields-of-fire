@@ -11,7 +11,11 @@
     "damageType": "",
     "armorCalc": "standard",
     "cost": 175,
-    "notes": "Smoke screen mortar round (no damage); see the smoke rules (Rules p.85). Availability 14 days, Street Index 2, weight 3.5. Fields of Fire p.45."
+    "notes": "Smoke screen mortar round (no damage); see the smoke rules (Rules p.85). Availability 14 days, Street Index 2, weight 3.5. Fields of Fire p.45.",
+    "citation": {
+      "book": "ff",
+      "page": "45"
+    }
   },
   "effects": [],
   "flags": {},

@@ -37,7 +37,11 @@
     "streetIndex": "4",
     "equipped": false,
     "accessories": [],
-    "notes": "Saeder-Krupp shoulder/balanced launcher firing Ballista Mk I/II/III missiles, direct- or indirect-fire. 4-round magazine (swap 10s; full reload 30s). Ships with a Type I Laser Designator (direct-fire mode). Base 14D varies by missile round (see ff-ammo). Fields of Fire p.42."
+    "notes": "Saeder-Krupp shoulder/balanced launcher firing Ballista Mk I/II/III missiles, direct- or indirect-fire. 4-round magazine (swap 10s; full reload 30s). Ships with a Type I Laser Designator (direct-fire mode). Base 14D varies by missile round (see ff-ammo). Fields of Fire p.42.",
+    "citation": {
+      "book": "ff",
+      "page": "42"
+    }
   },
   "effects": [],
   "flags": {},

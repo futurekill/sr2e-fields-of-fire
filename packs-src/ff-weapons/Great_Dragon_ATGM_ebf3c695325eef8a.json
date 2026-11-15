@@ -37,7 +37,11 @@
     "streetIndex": "2",
     "equipped": false,
     "accessories": [],
-    "notes": "Tripod-mounted, reusable ground-based anti-tank guided missile (semi-active tracking, Optical Mag II). Shaped-charge AP warhead stops armor of any size; 20D, reduces target Power by Body. Standard missile rules (SRII p.99); no accessories. 12m exhaust blast (−1/m). Fields of Fire p.41."
+    "notes": "Tripod-mounted, reusable ground-based anti-tank guided missile (semi-active tracking, Optical Mag II). Shaped-charge AP warhead stops armor of any size; 20D, reduces target Power by Body. Standard missile rules (SRII p.99); no accessories. 12m exhaust blast (−1/m). Fields of Fire p.41.",
+    "citation": {
+      "book": "ff",
+      "page": "41"
+    }
   },
   "effects": [],
   "flags": {},

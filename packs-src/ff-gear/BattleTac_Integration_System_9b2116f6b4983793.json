@@ -18,7 +18,11 @@
     "combatTnMod": 0,
     "accessoryRecoilComp": 0,
     "requiresSmartgun": false,
-    "notes": "Sony BattleTac tactical telecom + data-transfer network linking allied soldiers. Requires the Special Skill: Small Unit Tactics (and a BattleTac unit). Users take a −2 modifier to all target numbers whenever the network is active (rules p.84). Fields of Fire p.59."
+    "notes": "Sony BattleTac tactical telecom + data-transfer network linking allied soldiers. Requires the Special Skill: Small Unit Tactics (and a BattleTac unit). Users take a −2 modifier to all target numbers whenever the network is active (rules p.84). Fields of Fire p.59.",
+    "citation": {
+      "book": "ff",
+      "page": "59"
+    }
   },
   "effects": [],
   "flags": {},

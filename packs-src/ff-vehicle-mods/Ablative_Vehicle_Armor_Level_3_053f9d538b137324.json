@@ -12,6 +12,10 @@
     "designable": false,
     "effects": {
       "armor": "min(2 x R, B)"
+    },
+    "citation": {
+      "book": "ff",
+      "page": "72"
     }
   },
   "effects": [],

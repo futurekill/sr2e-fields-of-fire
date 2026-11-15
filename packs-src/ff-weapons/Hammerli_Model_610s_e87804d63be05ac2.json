@@ -37,7 +37,11 @@
     "streetIndex": "2.5",
     "equipped": false,
     "accessories": [],
-    "notes": "Match-target pistol (technically a light pistol but uses the Heavy Pistol range table); customizable grips/weights give +1 Recoil Reduction. Top accessories only. Fields of Fire p.27."
+    "notes": "Match-target pistol (technically a light pistol but uses the Heavy Pistol range table); customizable grips/weights give +1 Recoil Reduction. Top accessories only. Fields of Fire p.27.",
+    "citation": {
+      "book": "ff",
+      "page": "27"
+    }
   },
   "effects": [],
   "flags": {},

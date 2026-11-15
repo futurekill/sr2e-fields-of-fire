@@ -18,7 +18,11 @@
     "combatTnMod": 0,
     "accessoryRecoilComp": 0,
     "requiresSmartgun": false,
-    "notes": "Dedicated laser-link for the Tacticom system. Street Index 2. Fields of Fire p.58."
+    "notes": "Dedicated laser-link for the Tacticom system. Street Index 2. Fields of Fire p.58.",
+    "citation": {
+      "book": "ff",
+      "page": "58"
+    }
   },
   "effects": [],
   "flags": {},

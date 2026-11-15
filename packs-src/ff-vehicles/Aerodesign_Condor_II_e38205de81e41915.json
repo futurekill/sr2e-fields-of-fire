@@ -25,7 +25,11 @@
       "max": 10
     },
     "notes": "Long-endurance recon drone — the Condor LDSD-23 with long-duration batteries in place of solar cells. Handling 5, Speed 30/90, VSTOL, Economy 5 km/PF, Power 25 PF (duration limited by power), Standard (I) sensor package, set-up 5 min. Remote-control gear; 3 CF free for sensors/ECM-ECCM/control gear. Fields of Fire p.67. (Rigger 2 lists a Condor II LDSD-41 with a slightly different stat block.)<p><em>Fields of Fire p.67: Speed 30/90 m/CT (cruising/maximum; Speed holds the cruising speed). Stowing it takes 4 CF of another vehicle's cargo space.</em></p>",
-    "handlingOffRoad": null
+    "handlingOffRoad": null,
+    "citation": {
+      "book": "ff",
+      "page": "67"
+    }
   },
   "items": [],
   "effects": [],

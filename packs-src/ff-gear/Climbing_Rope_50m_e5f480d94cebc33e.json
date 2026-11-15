@@ -18,7 +18,11 @@
     "combatTnMod": 0,
     "accessoryRecoilComp": 0,
     "requiresSmartgun": false,
-    "notes": "50-meter climbing rope (holds 2,000 kg). Street Index 1. Fields of Fire p.56."
+    "notes": "50-meter climbing rope (holds 2,000 kg). Street Index 1. Fields of Fire p.56.",
+    "citation": {
+      "book": "ff",
+      "page": "56"
+    }
   },
   "effects": [],
   "flags": {},

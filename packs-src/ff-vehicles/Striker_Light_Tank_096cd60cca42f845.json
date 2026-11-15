@@ -25,7 +25,11 @@
       "max": 10
     },
     "notes": "Popular light tank. Handling 6/4, Speed 25/75 (off-road 15/45), Access 2 front hatches + 1 turret hatch, Economy 1.5 km/L, Fuel Multifuel/600 L. Comes with telecom system (Rating 0), EnviroSeal, and a medium remote turret; weapons not included. Fields of Fire p.65.<p><em>Fields of Fire p.65: Speed 25/75 m/CT (cruising/maximum; Speed holds the cruising speed).</em></p>",
-    "handlingOffRoad": 4
+    "handlingOffRoad": 4,
+    "citation": {
+      "book": "ff",
+      "page": "65"
+    }
   },
   "items": [],
   "effects": [],

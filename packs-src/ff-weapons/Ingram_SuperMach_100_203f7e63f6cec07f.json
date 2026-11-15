@@ -37,7 +37,11 @@
     "streetIndex": "3",
     "equipped": false,
     "accessories": [],
-    "notes": "'Super-machinegun' SMG firing light-pistol rounds with +3 Recoil Reduction; six-round bursts do 12S, max autofire 5. 60-round high-density clip (25¥) available. Under-barrel + top accessories. Fields of Fire p.31."
+    "notes": "'Super-machinegun' SMG firing light-pistol rounds with +3 Recoil Reduction; six-round bursts do 12S, max autofire 5. 60-round high-density clip (25¥) available. Under-barrel + top accessories. Fields of Fire p.31.",
+    "citation": {
+      "book": "ff",
+      "page": "31"
+    }
   },
   "effects": [],
   "flags": {},

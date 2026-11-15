@@ -18,7 +18,11 @@
     "combatTnMod": 0,
     "accessoryRecoilComp": 0,
     "requiresSmartgun": false,
-    "notes": "Radar target designator (range 10,000+ km) — most accurate/reliable. Street Index 2. Fields of Fire p.60."
+    "notes": "Radar target designator (range 10,000+ km) — most accurate/reliable. Street Index 2. Fields of Fire p.60.",
+    "citation": {
+      "book": "ff",
+      "page": "60"
+    }
   },
   "effects": [],
   "flags": {

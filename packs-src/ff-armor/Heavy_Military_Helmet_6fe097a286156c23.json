@@ -13,7 +13,11 @@
     "legality": "Forbidden",
     "equipped": false,
     "isLayered": false,
-    "notes": "Add-on military helmet: +2 Ballistic / +3 Impact to the suit. Street Index 3. Forbidden. Fields of Fire p.54."
+    "notes": "Add-on military helmet: +2 Ballistic / +3 Impact to the suit. Street Index 3. Forbidden. Fields of Fire p.54.",
+    "citation": {
+      "book": "ff",
+      "page": "54"
+    }
   },
   "effects": [],
   "flags": {},

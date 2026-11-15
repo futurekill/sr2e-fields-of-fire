@@ -11,7 +11,11 @@
     "damageType": "",
     "armorCalc": "standard",
     "cost": 30,
-    "notes": "Smoke screen grenade (no damage; smoke rules, Rules p.85). Concealability 6, Availability 3/24 hrs, Street Index 2. Fields of Fire p.48."
+    "notes": "Smoke screen grenade (no damage; smoke rules, Rules p.85). Concealability 6, Availability 3/24 hrs, Street Index 2. Fields of Fire p.48.",
+    "citation": {
+      "book": "ff",
+      "page": "48"
+    }
   },
   "effects": [],
   "flags": {},

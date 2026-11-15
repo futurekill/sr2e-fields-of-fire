@@ -11,7 +11,11 @@
     "damageType": "",
     "armorCalc": "standard",
     "cost": 50,
-    "notes": "Improved offensive grenade (HE or AP). Damage 15S, blast −1/meter. Concealability 6, Availability 5/4 days, Street Index 2. Fields of Fire p.48."
+    "notes": "Improved offensive grenade (HE or AP). Damage 15S, blast −1/meter. Concealability 6, Availability 5/4 days, Street Index 2. Fields of Fire p.48.",
+    "citation": {
+      "book": "ff",
+      "page": "48"
+    }
   },
   "effects": [],
   "flags": {},

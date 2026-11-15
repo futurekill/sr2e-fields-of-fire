@@ -37,7 +37,11 @@
     "streetIndex": "2",
     "equipped": false,
     "accessories": [],
-    "notes": "Common, affordable pump/semi shotgun firing slug or shot (8S; see the SR2 shotgun rules). Sawed-off version: Concealability 4 and all Damage Codes −2. Fields of Fire p.36."
+    "notes": "Common, affordable pump/semi shotgun firing slug or shot (8S; see the SR2 shotgun rules). Sawed-off version: Concealability 4 and all Damage Codes −2. Fields of Fire p.36.",
+    "citation": {
+      "book": "ff",
+      "page": "36"
+    }
   },
   "effects": [],
   "flags": {},

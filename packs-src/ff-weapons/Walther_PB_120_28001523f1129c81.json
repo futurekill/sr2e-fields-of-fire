@@ -37,7 +37,11 @@
     "streetIndex": "2",
     "equipped": false,
     "accessories": [],
-    "notes": "Low-profile composite back-up light pistol; 15-round extended clip available. Mounts standard barrel + top accessories, no under-barrel. Fields of Fire p.26."
+    "notes": "Low-profile composite back-up light pistol; 15-round extended clip available. Mounts standard barrel + top accessories, no under-barrel. Fields of Fire p.26.",
+    "citation": {
+      "book": "ff",
+      "page": "26"
+    }
   },
   "effects": [],
   "flags": {},

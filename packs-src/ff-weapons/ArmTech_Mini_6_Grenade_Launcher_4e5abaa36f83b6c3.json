@@ -37,7 +37,11 @@
     "streetIndex": "3",
     "equipped": false,
     "accessories": [],
-    "notes": "Pistol-style version of the MGL-12; 6-round clip of mini-grenades. Standard grenade rules (SRII p.96), recoil modifier +2 (gyro-mount only). Targeting + sighting accessories. Damage per grenade (see ff-ammo). Fields of Fire p.47."
+    "notes": "Pistol-style version of the MGL-12; 6-round clip of mini-grenades. Standard grenade rules (SRII p.96), recoil modifier +2 (gyro-mount only). Targeting + sighting accessories. Damage per grenade (see ff-ammo). Fields of Fire p.47.",
+    "citation": {
+      "book": "ff",
+      "page": "47"
+    }
   },
   "effects": [],
   "flags": {},

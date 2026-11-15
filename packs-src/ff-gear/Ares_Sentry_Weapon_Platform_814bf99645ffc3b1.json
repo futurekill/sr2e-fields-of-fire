@@ -18,7 +18,11 @@
     "combatTnMod": 0,
     "accessoryRecoilComp": 0,
     "requiresSmartgun": false,
-    "notes": "Automated robotic weapon mount (Ares Sentry): Intelligence 6 (+1 per added sensor), Firearms Skill 5 (+1 per 5,000¥ or extra sensor), integral thermographic + pulse-radar sensors. Initiative 15+1D6 (raise to 20+2D6 for 10,000¥ or 25+3D6 for 20,000¥). Mounts a weapon up to a light machine gun; tripod or 300° rotation; Barrier Rating 12. Standard cost 22,000¥ +10% for customization; extra sensors 2,000¥; incline/decline targeting 3,000¥. Plus the weapon, ammo, and recoil comp. Street Index 4. Fields of Fire p.46."
+    "notes": "Automated robotic weapon mount (Ares Sentry): Intelligence 6 (+1 per added sensor), Firearms Skill 5 (+1 per 5,000¥ or extra sensor), integral thermographic + pulse-radar sensors. Initiative 15+1D6 (raise to 20+2D6 for 10,000¥ or 25+3D6 for 20,000¥). Mounts a weapon up to a light machine gun; tripod or 300° rotation; Barrier Rating 12. Standard cost 22,000¥ +10% for customization; extra sensors 2,000¥; incline/decline targeting 3,000¥. Plus the weapon, ammo, and recoil comp. Street Index 4. Fields of Fire p.46.",
+    "citation": {
+      "book": "ff",
+      "page": "46"
+    }
   },
   "effects": [],
   "flags": {},

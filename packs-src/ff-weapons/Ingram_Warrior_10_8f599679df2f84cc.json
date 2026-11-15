@@ -37,7 +37,11 @@
     "streetIndex": "0.9",
     "equipped": false,
     "accessories": [],
-    "notes": "Cheap, durable SMG that keeps firing in any conditions; mounts all barrel, under-barrel, and top accessories. Fields of Fire p.29."
+    "notes": "Cheap, durable SMG that keeps firing in any conditions; mounts all barrel, under-barrel, and top accessories. Fields of Fire p.29.",
+    "citation": {
+      "book": "ff",
+      "page": "29"
+    }
   },
   "effects": [],
   "flags": {},

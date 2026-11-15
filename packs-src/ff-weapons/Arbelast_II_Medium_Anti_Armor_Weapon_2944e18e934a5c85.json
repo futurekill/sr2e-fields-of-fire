@@ -37,7 +37,11 @@
     "streetIndex": "2",
     "equipped": false,
     "accessories": [],
-    "notes": "Heavier disposable rocket launcher (MAW) with a permanent fixed-magnification sight and pop-up hard sights; non-telescoping, no accessories. Warhead 15D (Scatter 2D6+2, Power −1/half-meter). Not AVR-compatible, no AP. 12m back-blast (12M, −1/m). Fields of Fire p.40."
+    "notes": "Heavier disposable rocket launcher (MAW) with a permanent fixed-magnification sight and pop-up hard sights; non-telescoping, no accessories. Warhead 15D (Scatter 2D6+2, Power −1/half-meter). Not AVR-compatible, no AP. 12m back-blast (12M, −1/m). Fields of Fire p.40.",
+    "citation": {
+      "book": "ff",
+      "page": "40"
+    }
   },
   "effects": [],
   "flags": {},

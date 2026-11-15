@@ -13,7 +13,11 @@
     "legality": "Forbidden",
     "equipped": false,
     "isLayered": false,
-    "notes": "Hardened military combat armor with integral combat electronics (incl. BattleTac). Weight 14 + Body. Reduces Combat Pool by 1 per 2 Ballistic points above the wearer's Quickness. Street Index 3. Forbidden. Fields of Fire p.54."
+    "notes": "Hardened military combat armor with integral combat electronics (incl. BattleTac). Weight 14 + Body. Reduces Combat Pool by 1 per 2 Ballistic points above the wearer's Quickness. Street Index 3. Forbidden. Fields of Fire p.54.",
+    "citation": {
+      "book": "ff",
+      "page": "54"
+    }
   },
   "effects": [],
   "flags": {},

@@ -37,7 +37,11 @@
     "streetIndex": "2",
     "equipped": false,
     "accessories": [],
-    "notes": "Stripped-down, budget version of the M-22A2 assault rifle; mounts standard barrel, under-barrel, and top accessories. Fields of Fire p.32."
+    "notes": "Stripped-down, budget version of the M-22A2 assault rifle; mounts standard barrel, under-barrel, and top accessories. Fields of Fire p.32.",
+    "citation": {
+      "book": "ff",
+      "page": "32"
+    }
   },
   "effects": [],
   "flags": {},

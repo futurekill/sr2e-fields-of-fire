@@ -25,7 +25,11 @@
       "max": 10
     },
     "notes": "Multi-Purpose Utility Vehicle — the world's most popular light combat vehicle; 4WD, lightly armored against small arms. Handling 5/3, Speed 40/120 (off-road 30/90), Access 2+2, Economy 15 km/L, Fuel Multifuel/100. Accessories: radio transceiver, white-light searchlight, roll bars, roof pintle mount with access hatch; some come with a single hardpoint (weapons not included). Fields of Fire p.63.<p><em>Fields of Fire p.63: Speed 40/120 m/CT (cruising/maximum; Speed holds the cruising speed).</em></p>",
-    "handlingOffRoad": 3
+    "handlingOffRoad": 3,
+    "citation": {
+      "book": "ff",
+      "page": "63"
+    }
   },
   "items": [],
   "effects": [],

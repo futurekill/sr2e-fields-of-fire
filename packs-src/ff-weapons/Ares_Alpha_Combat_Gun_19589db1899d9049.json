@@ -37,7 +37,11 @@
     "streetIndex": "4",
     "equipped": false,
     "accessories": [],
-    "notes": "Premium assault rifle with integral full-function Smartlink Level II, an integral mini-grenade launcher (8 mini-grenades, fired SS), and chamber-based recoil (+2 RR). Under-barrel + top accessories, no barrel-mounted. Fields of Fire p.33."
+    "notes": "Premium assault rifle with integral full-function Smartlink Level II, an integral mini-grenade launcher (8 mini-grenades, fired SS), and chamber-based recoil (+2 RR). Under-barrel + top accessories, no barrel-mounted. Fields of Fire p.33.",
+    "citation": {
+      "book": "ff",
+      "page": "33"
+    }
   },
   "effects": [],
   "flags": {},

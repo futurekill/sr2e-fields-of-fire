@@ -25,7 +25,11 @@
       "max": 10
     },
     "notes": "Amphibious armored personnel carrier. Handling 5/3, Speed 25/75 (off-road 15/45, 10/30 in water), Access 3 top hatches + 1 double rear hatch, Economy 2 km/L, Fuel Multifuel/325 L. Comes with telecom system (Rating 0), EnviroSeal, and a small remote turret; weapons, sensors, and ECM/ECCM not included. Fields of Fire p.64.<p><em>Fields of Fire p.64: Speed 25/75 m/CT (cruising/maximum; Speed holds the cruising speed).</em></p>",
-    "handlingOffRoad": 3
+    "handlingOffRoad": 3,
+    "citation": {
+      "book": "ff",
+      "page": "64"
+    }
   },
   "items": [],
   "effects": [],

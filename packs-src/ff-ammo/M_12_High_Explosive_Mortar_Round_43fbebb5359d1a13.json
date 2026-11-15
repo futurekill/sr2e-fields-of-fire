@@ -11,7 +11,11 @@
     "damageType": "",
     "armorCalc": "standard",
     "cost": 200,
-    "notes": "HE mortar round. Damage 18D, blast −1/0.5 meter. Availability 18/14 days, Street Index 3, weight 4.0. Fields of Fire p.45."
+    "notes": "HE mortar round. Damage 18D, blast −1/0.5 meter. Availability 18/14 days, Street Index 3, weight 4.0. Fields of Fire p.45.",
+    "citation": {
+      "book": "ff",
+      "page": "45"
+    }
   },
   "effects": [],
   "flags": {},

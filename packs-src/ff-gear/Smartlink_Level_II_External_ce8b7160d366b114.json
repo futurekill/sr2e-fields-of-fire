@@ -18,7 +18,11 @@
     "combatTnMod": 0,
     "accessoryRecoilComp": 0,
     "requiresSmartgun": false,
-    "notes": "External Smartlink II weapon unit (top/under mount). Faster, cleaner cross-vendor smartgun linkage per the ADVAT.328 protocol; back-compatible with Level I. Street Index 2. Fields of Fire p.57."
+    "notes": "External Smartlink II weapon unit (top/under mount). Faster, cleaner cross-vendor smartgun linkage per the ADVAT.328 protocol; back-compatible with Level I. Street Index 2. Fields of Fire p.57.",
+    "citation": {
+      "book": "ff",
+      "page": "57"
+    }
   },
   "effects": [],
   "flags": {},

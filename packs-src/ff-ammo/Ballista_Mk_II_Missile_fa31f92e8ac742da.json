@@ -16,6 +16,10 @@
       "kind": "missile",
       "intelligence": 5,
       "sensor": 0
+    },
+    "citation": {
+      "book": "ff",
+      "page": "43"
     }
   },
   "effects": [],

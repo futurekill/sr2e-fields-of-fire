@@ -18,7 +18,11 @@
     "combatTnMod": 0,
     "accessoryRecoilComp": 0,
     "requiresSmartgun": false,
-    "notes": "Soldier's personal Tacticom comm unit (Rating 14). Street Index 2. Fields of Fire p.58."
+    "notes": "Soldier's personal Tacticom comm unit (Rating 14). Street Index 2. Fields of Fire p.58.",
+    "citation": {
+      "book": "ff",
+      "page": "58"
+    }
   },
   "effects": [],
   "flags": {},

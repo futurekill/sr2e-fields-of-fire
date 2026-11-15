@@ -13,7 +13,11 @@
     "legality": "Forbidden",
     "equipped": false,
     "isLayered": false,
-    "notes": "Mil-spec gel-pack upgrade added to ANY armor: treat that armor as Hardened at its normal Ballistic and Impact ratings (a hit whose Power doesn't exceed the rating does no damage; penetration reduces the rating by 1). Halves the armor's Concealability (round down). Multiplies the base armor by: weight ×1.25, cost ×5, Street Index ×2, Availability target number ×2 and time ×4. Forbidden. Fields of Fire p.53."
+    "notes": "Mil-spec gel-pack upgrade added to ANY armor: treat that armor as Hardened at its normal Ballistic and Impact ratings (a hit whose Power doesn't exceed the rating does no damage; penetration reduces the rating by 1). Halves the armor's Concealability (round down). Multiplies the base armor by: weight ×1.25, cost ×5, Street Index ×2, Availability target number ×2 and time ×4. Forbidden. Fields of Fire p.53.",
+    "citation": {
+      "book": "ff",
+      "page": "53"
+    }
   },
   "effects": [],
   "flags": {},

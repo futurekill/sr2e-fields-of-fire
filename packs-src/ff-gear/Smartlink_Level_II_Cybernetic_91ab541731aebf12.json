@@ -18,7 +18,11 @@
     "combatTnMod": 0,
     "accessoryRecoilComp": 0,
     "requiresSmartgun": false,
-    "notes": "Implanted Smartlink II (cyberware: Essence Cost 0.5). Street Index 2. Fields of Fire p.57. (No ff-cyberware pack; modeled here as gear — treat as a 0.5-Essence implant.)"
+    "notes": "Implanted Smartlink II (cyberware: Essence Cost 0.5). Street Index 2. Fields of Fire p.57. (No ff-cyberware pack; modeled here as gear — treat as a 0.5-Essence implant.)",
+    "citation": {
+      "book": "ff",
+      "page": "57"
+    }
   },
   "effects": [],
   "flags": {},

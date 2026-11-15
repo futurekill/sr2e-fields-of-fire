@@ -25,7 +25,11 @@
       "max": 10
     },
     "notes": "STOL heavy cargo aircraft. Handling 7, Speed 150/350, Access 1 side hatch + rear ramp, Economy .04, Fuel 180,000 L, Max Range 7,600 km, Combat Radius 1,800 km. Telecom system (Rating 0); weapon mounts, sensors, ECM/ECCM not in standard configuration. Fields of Fire p.66.<p><em>Fields of Fire p.66: Speed 150/350 m/CT (cruising/maximum; Speed holds the cruising speed).</em></p>",
-    "handlingOffRoad": null
+    "handlingOffRoad": null,
+    "citation": {
+      "book": "ff",
+      "page": "66"
+    }
   },
   "items": [],
   "effects": [],

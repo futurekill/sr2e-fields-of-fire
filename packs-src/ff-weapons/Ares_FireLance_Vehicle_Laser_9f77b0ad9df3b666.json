@@ -37,7 +37,11 @@
     "streetIndex": "",
     "equipped": false,
     "accessories": [],
-    "notes": "Turret-mounted vehicle laser for small/medium vehicles; high recharge rate engages multiple targets, long mean time between failures. Range via the FF Weapon Range Table (Assault Rifle row); Power −2 per band beyond Short. Ignores Ballistic Armor, halves Impact (round down); −1 Damage vs vehicles; smoke −1 Power per 4m. Vehicle-mounted (Gunnery). Availability/Street Index unknown. Fields of Fire p.50."
+    "notes": "Turret-mounted vehicle laser for small/medium vehicles; high recharge rate engages multiple targets, long mean time between failures. Range via the FF Weapon Range Table (Assault Rifle row); Power −2 per band beyond Short. Ignores Ballistic Armor, halves Impact (round down); −1 Damage vs vehicles; smoke −1 Power per 4m. Vehicle-mounted (Gunnery). Availability/Street Index unknown. Fields of Fire p.50.",
+    "citation": {
+      "book": "ff",
+      "page": "50"
+    }
   },
   "effects": [],
   "flags": {},

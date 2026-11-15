@@ -37,7 +37,11 @@
     "streetIndex": "3",
     "equipped": false,
     "accessories": [],
-    "notes": "Short-blade version of the Cougar Fineblade combat knife: double-edged, state-of-the-art molecular bonding/edging, wire-cutting notch, hardened grip and pommel. No special properties. Fields of Fire p.55."
+    "notes": "Short-blade version of the Cougar Fineblade combat knife: double-edged, state-of-the-art molecular bonding/edging, wire-cutting notch, hardened grip and pommel. No special properties. Fields of Fire p.55.",
+    "citation": {
+      "book": "ff",
+      "page": "55"
+    }
   },
   "effects": [],
   "flags": {},

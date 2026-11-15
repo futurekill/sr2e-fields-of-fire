@@ -37,7 +37,11 @@
     "streetIndex": "2",
     "equipped": false,
     "accessories": [],
-    "notes": "Disposable single-shot telescoping LAW; accepts no accessories and must be fully opened to fire (drops Concealability to 0; firing is a Complex Action). Standard rocket rules (SRII p.99); not AVR-compatible, no armor-piercing. 10m back-blast (10M, −1/m). Fields of Fire p.39."
+    "notes": "Disposable single-shot telescoping LAW; accepts no accessories and must be fully opened to fire (drops Concealability to 0; firing is a Complex Action). Standard rocket rules (SRII p.99); not AVR-compatible, no armor-piercing. 10m back-blast (10M, −1/m). Fields of Fire p.39.",
+    "citation": {
+      "book": "ff",
+      "page": "39"
+    }
   },
   "effects": [],
   "flags": {},

@@ -37,7 +37,11 @@
     "streetIndex": "4",
     "equipped": false,
     "accessories": [],
-    "notes": "High-velocity assault rifle (HVAR) with minigun firing rates; integral Smartlink II and +3 Recoil Reduction. Fires light-pistol rounds; six-round bursts do 12D, max autofire 15. Under-barrel + top accessories. Fields of Fire p.34."
+    "notes": "High-velocity assault rifle (HVAR) with minigun firing rates; integral Smartlink II and +3 Recoil Reduction. Fires light-pistol rounds; six-round bursts do 12D, max autofire 15. Under-barrel + top accessories. Fields of Fire p.34.",
+    "citation": {
+      "book": "ff",
+      "page": "34"
+    }
   },
   "effects": [],
   "flags": {},

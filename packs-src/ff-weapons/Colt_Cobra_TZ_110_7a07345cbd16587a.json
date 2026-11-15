@@ -37,7 +37,11 @@
     "streetIndex": "2",
     "equipped": false,
     "accessories": [],
-    "notes": "Best-selling SMG; folding stock + integral Gas-Vent II (+1 RR). Variants: TZ-115 adds an integral laser sight (+850¥), TZ-118 an integral smartlink (+1,000¥). Standard under-barrel + top accessories, no barrel-mounted. Fields of Fire p.30."
+    "notes": "Best-selling SMG; folding stock + integral Gas-Vent II (+1 RR). Variants: TZ-115 adds an integral laser sight (+850¥), TZ-118 an integral smartlink (+1,000¥). Standard under-barrel + top accessories, no barrel-mounted. Fields of Fire p.30.",
+    "citation": {
+      "book": "ff",
+      "page": "30"
+    }
   },
   "effects": [],
   "flags": {},

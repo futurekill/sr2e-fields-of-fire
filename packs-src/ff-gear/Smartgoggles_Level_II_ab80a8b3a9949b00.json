@@ -18,7 +18,11 @@
     "combatTnMod": 0,
     "accessoryRecoilComp": 0,
     "requiresSmartgun": false,
-    "notes": "Level II smartgoggles — smartlink display without an implant. Street Index 2. Fields of Fire p.57."
+    "notes": "Level II smartgoggles — smartlink display without an implant. Street Index 2. Fields of Fire p.57.",
+    "citation": {
+      "book": "ff",
+      "page": "57"
+    }
   },
   "effects": [],
   "flags": {},
