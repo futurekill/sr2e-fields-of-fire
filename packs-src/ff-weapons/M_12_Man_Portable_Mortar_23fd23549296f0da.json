@@ -5,7 +5,7 @@
   "img": "modules/sr2e-fields-of-fire/assets/item_icons/weapon/m-12-man-portable-mortar.webp",
   "system": {
     "weaponType": "heavy",
-    "skill": "launch_weapons",
+    "skill": "gunnery",
     "damageCode": "*",
     "damageType": "physical",
     "concealability": 99,

@@ -5,7 +5,7 @@
   "img": "modules/sr2e-fields-of-fire/assets/item_icons/weapon/armtech-mgl-12.webp",
   "system": {
     "weaponType": "heavy",
-    "skill": "launch_weapons",
+    "skill": "firearms",
     "damageCode": "*",
     "damageType": "physical",
     "concealability": 3,

@@ -5,7 +5,7 @@
   "img": "modules/sr2e-fields-of-fire/assets/item_icons/weapon/ballista-multi-role-missile-launcher.webp",
   "system": {
     "weaponType": "heavy",
-    "skill": "launch_weapons",
+    "skill": "gunnery",
     "damageCode": "14D",
     "damageType": "physical",
     "concealability": 99,

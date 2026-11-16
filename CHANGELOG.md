@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.4.1 — 2026-11-15
+
+### Fixed
+- **Launchers use SR2's skills** (core p.75): the ArmTech MGL-12 and Mini-6 grenade launchers use Firearms; the M79B1
+  LAW, Arbelast II MAW, Great Dragon ATGM, Ballista launcher and M-12 mortar use Gunnery. They used a "Launch Weapons"
+  skill that SR2 doesn't have (sr2e 0.158.0 removes it and migrates launchers already in a world).
+
 ## 0.4.0 — 2026-11-15
 
 Requires sr2e 0.156.0 (citations).
